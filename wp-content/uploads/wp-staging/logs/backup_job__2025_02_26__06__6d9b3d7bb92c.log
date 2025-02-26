@@ -1,0 +1,86 @@
+[info]-[2025/02/26 06:31:05] #################### Start Backup Job ####################
+[info]-[2025/02/26 06:31:05] System Info
+[INFO_SUB]-[2025/02/26 06:31:05] - WP Staging Version: 4.1.1
+[INFO_SUB]-[2025/02/26 06:31:05] - PHP Version: 8.3.14
+[INFO_SUB]-[2025/02/26 06:31:05] - Server: Apache/2.4.62 (Unix) OpenSSL/1.1.1w mod_fastcgi/mod_fastcgi-SNAP-0910052141
+[INFO_SUB]-[2025/02/26 06:31:05] - MySQL: 8.0.40
+[INFO_SUB]-[2025/02/26 06:31:05] - WP Version: 6.7.1
+[INFO_SUB]-[2025/02/26 06:31:05] - Host: General
+[INFO_SUB]-[2025/02/26 06:31:05] - PHP Memory Limit: 134217728
+[INFO_SUB]-[2025/02/26 06:31:05] - WP Memory Limit: 41943040
+[INFO_SUB]-[2025/02/26 06:31:05] - PHP Max Execution Time: 30
+[info]-[2025/02/26 06:31:05] Activated Plugins
+[INFO_SUB]-[2025/02/26 06:31:05] - WP STAGING WordPress Backup Plugin - Backup Duplicator &amp; Migration : 4.1.1
+[info]-[2025/02/26 06:31:05] Inactive Plugins
+[INFO_SUB]-[2025/02/26 06:31:05] - Akismet Anti-spam: Spam Protection : 5.3.5
+[INFO_SUB]-[2025/02/26 06:31:05] - Elementor : 3.27.5
+[INFO_SUB]-[2025/02/26 06:31:05] - Everest Forms : 3.0.9.4
+[INFO_SUB]-[2025/02/26 06:31:05] - Flamingo : 2.5
+[INFO_SUB]-[2025/02/26 06:31:05] - Forminator : 1.39.1
+[INFO_SUB]-[2025/02/26 06:31:05] - Hello Dolly : 1.7.2
+[INFO_SUB]-[2025/02/26 06:31:05] - Image Optimizer - Compress, Resize and Optimize Images : 1.6.5
+[INFO_SUB]-[2025/02/26 06:31:05] - The Post Grid : 7.7.15
+[INFO_SUB]-[2025/02/26 06:31:05] - Ultimate Member : 2.9.2
+[INFO_SUB]-[2025/02/26 06:31:05] - WP User Frontend : 4.0.14
+[info]-[2025/02/26 06:31:05] Activated Theme
+[INFO_SUB]-[2025/02/26 06:31:05] - Hello Elementor : 3.3.0
+[info]-[2025/02/26 06:31:05] Inactive Themes
+[INFO_SUB]-[2025/02/26 06:31:05] - Astra : 4.8.12
+[INFO_SUB]-[2025/02/26 06:31:05] - Twenty Twenty-Five : 1.0
+[INFO_SUB]-[2025/02/26 06:31:05] - Twenty Twenty-Four : 1.3
+[INFO_SUB]-[2025/02/26 06:31:05] - Twenty Twenty-Three : 1.6
+[info]-[2025/02/26 06:31:05] Backup Settings
+[INFO_SUB]-[2025/02/26 06:31:05] - Backup Media Library : True
+[INFO_SUB]-[2025/02/26 06:31:05] - Backup Themes : True
+[INFO_SUB]-[2025/02/26 06:31:05] - Backup Must-Use Plugins : True
+[INFO_SUB]-[2025/02/26 06:31:05] - Backup Plugins : True
+[INFO_SUB]-[2025/02/26 06:31:05] - Backup Other Files In wp-content : True
+[INFO_SUB]-[2025/02/26 06:31:05] - Backup Other wp root folders : False
+[INFO_SUB]-[2025/02/26 06:31:05] - Backup Database : True
+[INFO_SUB]-[2025/02/26 06:31:05] - Add Exclusions : False
+[INFO_SUB]-[2025/02/26 06:31:05] - Backup Run in Background : False
+[INFO_SUB]-[2025/02/26 06:31:05] - Backup Validate : False
+[INFO_SUB]-[2025/02/26 06:31:05] - Backup One Time : True
+[INFO_SUB]-[2025/02/26 06:31:05] - Is Multipart Backup: No
+[INFO_SUB]-[2025/02/26 06:31:05] - Storages : localStorage
+[INFO_SUB]-[2025/02/26 06:31:05] - Backup Format: v2
+[info]-[2025/02/26 06:31:05] Backup requirements passed...
+[info]-[2025/02/26 06:31:05] Discovering Files: Skipped file "wp-content/debug.log/." Extension "log" is excluded by rule.
+[info]-[2025/02/26 06:31:05] Discovering Files: Skipped directory "plugins/wp-staging/". Excluded by rule
+[info]-[2025/02/26 06:31:06] Discovering Files: Skipped directory "uploads/wp-staging/". Excluded by rule
+[info]-[2025/02/26 06:31:07] Finished discovering Files. (8785 files)
+[info]-[2025/02/26 06:31:07] Added 63/63 otherfiles files to backup (99 MB/s)
+[info]-[2025/02/26 06:31:10] Added 7467/7467 plugins files to backup (53 MB/s)
+[info]-[2025/02/26 06:31:11] Added 0/0 muplugins files to backup (0 B/s)
+[info]-[2025/02/26 06:31:11] Added 1239/1239 themes files to backup (66 MB/s)
+[info]-[2025/02/26 06:31:12] Added 16/16 uploads files to backup (124 MB/s)
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_actionscheduler_actions. Rows: 10/10
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_actionscheduler_claims. Rows: 0/0
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_actionscheduler_groups. Rows: 2/2
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_actionscheduler_logs. Rows: 20/20
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_commentmeta. Rows: 0/0
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_comments. Rows: 1/1
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_e_events. Rows: 8/8
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_evf_entries. Rows: 3/3
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_evf_entrymeta. Rows: 3/3
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_evf_sessions. Rows: 0/0
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_frmt_form_entry. Rows: 1/1
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_frmt_form_entry_meta. Rows: 4/4
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_frmt_form_reports. Rows: 1/1
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_frmt_form_views. Rows: 4/4
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_links. Rows: 0/0
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_options. Rows: 408/408
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_postmeta. Rows: 620/620
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_posts. Rows: 141/141
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_signups. Rows: 0/0
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_term_relationships. Rows: 11/11
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_term_taxonomy. Rows: 4/4
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_termmeta. Rows: 0/0
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_terms. Rows: 4/4
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_um_metadata. Rows: 0/0
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_usermeta. Rows: 73/73
+[info]-[2025/02/26 06:31:12] Backup database: Table wp_users. Rows: 3/3
+[info]-[2025/02/26 06:31:13] Included 2 MB/2 MB of Database Backup.
+[info]-[2025/02/26 06:31:13] Successfully created backup file
+[info]-[2025/02/26 06:31:13] The backup was signed successfully.
+[info]-[2025/02/26 06:31:13] ################## FINISH ##################

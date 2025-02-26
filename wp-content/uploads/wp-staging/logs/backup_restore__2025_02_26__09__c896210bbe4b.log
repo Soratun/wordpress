@@ -1,0 +1,66 @@
+[info]-[2025/02/26 09:31:52] #################### Start Restore Job ####################
+[info]-[2025/02/26 09:31:52] System Info
+[INFO_SUB]-[2025/02/26 09:31:52] - WP Staging Version: 4.1.1
+[INFO_SUB]-[2025/02/26 09:31:52] - PHP Version: 8.3.14
+[INFO_SUB]-[2025/02/26 09:31:52] - Server: Apache/2.4.62 (Unix) OpenSSL/1.1.1w mod_fastcgi/mod_fastcgi-SNAP-0910052141
+[INFO_SUB]-[2025/02/26 09:31:52] - MySQL: 8.0.40
+[INFO_SUB]-[2025/02/26 09:31:52] - WP Version: 6.7.1
+[INFO_SUB]-[2025/02/26 09:31:52] - Host: General
+[INFO_SUB]-[2025/02/26 09:31:52] - PHP Memory Limit: 134217728
+[INFO_SUB]-[2025/02/26 09:31:52] - WP Memory Limit: 41943040
+[INFO_SUB]-[2025/02/26 09:31:52] - PHP Max Execution Time: 30
+[info]-[2025/02/26 09:31:52] Activated Plugins
+[INFO_SUB]-[2025/02/26 09:31:52] - WP STAGING WordPress Backup Plugin - Backup Duplicator &amp; Migration : 4.1.1
+[info]-[2025/02/26 09:31:52] Inactive Plugins
+[INFO_SUB]-[2025/02/26 09:31:52] - Akismet Anti-spam: Spam Protection : 5.3.5
+[INFO_SUB]-[2025/02/26 09:31:52] - Elementor : 3.27.5
+[INFO_SUB]-[2025/02/26 09:31:52] - Everest Forms : 3.0.9.4
+[INFO_SUB]-[2025/02/26 09:31:52] - Flamingo : 2.5
+[INFO_SUB]-[2025/02/26 09:31:52] - Forminator : 1.39.1
+[INFO_SUB]-[2025/02/26 09:31:52] - Hello Dolly : 1.7.2
+[INFO_SUB]-[2025/02/26 09:31:52] - Image Optimizer - Compress, Resize and Optimize Images : 1.6.5
+[INFO_SUB]-[2025/02/26 09:31:52] - The Post Grid : 7.7.15
+[INFO_SUB]-[2025/02/26 09:31:52] - Ultimate Member : 2.9.2
+[INFO_SUB]-[2025/02/26 09:31:52] - WP User Frontend : 4.0.14
+[info]-[2025/02/26 09:31:52] Activated Theme
+[INFO_SUB]-[2025/02/26 09:31:52] - Hello Elementor : 3.3.0
+[info]-[2025/02/26 09:31:52] Inactive Themes
+[INFO_SUB]-[2025/02/26 09:31:52] - Astra : 4.8.12
+[INFO_SUB]-[2025/02/26 09:31:52] - Twenty Twenty-Five : 1.0
+[INFO_SUB]-[2025/02/26 09:31:52] - Twenty Twenty-Four : 1.3
+[INFO_SUB]-[2025/02/26 09:31:52] - Twenty Twenty-Three : 1.6
+[INFO]-[2025/02/26 09:31:52] Backup Format: v2
+[info]-[2025/02/26 09:31:52] Is Same Site Restore: Yes
+[info]-[2025/02/26 09:31:52] Restore Related Filters:
+[INFO_SUB]-[2025/02/26 09:31:52] - Keep Existing Media: [not set]
+[INFO_SUB]-[2025/02/26 09:31:52] - Keep Existing Plugins: [not set]
+[INFO_SUB]-[2025/02/26 09:31:52] - Replace Existing Plugins: [not set]
+[INFO_SUB]-[2025/02/26 09:31:52] - Keep Existing Themes: [not set]
+[INFO_SUB]-[2025/02/26 09:31:52] - Replace Existing Themes: [not set]
+[INFO_SUB]-[2025/02/26 09:31:52] - Keep Existing Mu-Plugins: [not set]
+[INFO_SUB]-[2025/02/26 09:31:52] - Replace Existing Mu-Plugins: [not set]
+[INFO_SUB]-[2025/02/26 09:31:52] - Replace Existing Languages: [not set]
+[INFO_SUB]-[2025/02/26 09:31:52] - Keep Existing Other Files: [not set]
+[INFO_SUB]-[2025/02/26 09:31:52] - Temporary Database Prefix: [not set]
+[INFO_SUB]-[2025/02/26 09:31:52] - Exclude Backup Parts: [not set]
+[INFO_SUB]-[2025/02/26 09:31:52] - Exclude Media During Cleanup: [not set]
+[INFO_SUB]-[2025/02/26 09:31:52] - Exclude Plugins (Deprecated): [not set]
+[INFO_SUB]-[2025/02/26 09:31:52] - Exclude Other Files (Deprecated): [not set]
+[INFO_SUB]-[2025/02/26 09:31:52] - Exclude Files: [not set]
+[info]-[2025/02/26 09:31:53] Cleaning Up Restore Files: Path "wp-content/wp-staging/tmp/restore/" successfully cleaned up.
+[info]-[2025/02/26 09:31:54] Backup Requirements check passed...
+[info]-[2025/02/26 09:31:54] Cleaning Existing Media (cleaned 51 items)
+[info]-[2025/02/26 09:31:58] Extracted 8786/8786 files (48 MB/s)
+[info]-[2025/02/26 09:31:58] Restored Media Library
+[info]-[2025/02/26 09:31:59] Restoring Themes (processed 16 items)
+[info]-[2025/02/26 09:32:00] Restoring Plugins (processed 31 items)
+[info]-[2025/02/26 09:32:00] Restoring Language Files (processed 63 items)
+[info]-[2025/02/26 09:32:01] Restoring Other Files in wp-content (processed 2 items)
+[info]-[2025/02/26 09:32:01] Executed 1,317/1,317 queries (7,621 queries per second)
+[info]-[2025/02/26 09:32:01] Preserved backup schedules in the database.
+[info]-[2025/02/26 09:32:02] Found 26 tables to restore
+[info]-[2025/02/26 09:32:02] Restored 26/26 tables
+[info]-[2025/02/26 09:32:03] Database restored successfully.
+[info]-[2025/02/26 09:32:04] Restoring Mu-Plugins (processed 1 items)
+[info]-[2025/02/26 09:32:04] Cleaning Up Restore Files: Path "wp-content/wp-staging/tmp/restore/" successfully cleaned up.
+[info]-[2025/02/26 09:32:04] ################## FINISH ##################
