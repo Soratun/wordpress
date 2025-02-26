@@ -1516,3 +1516,22 @@ Stack trace:
 [16-Feb-2025 14:22:31 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
 [16-Feb-2025 14:30:51 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
 >>>>>>> be37ac4511b1091e020f02fa808230ea61b36bf6
+[26-Feb-2025 06:29:52 UTC] Automatic updates starting...
+[26-Feb-2025 06:29:53 UTC]   Automatic plugin updates starting...
+[26-Feb-2025 06:29:53 UTC]   Automatic plugin updates complete.
+[26-Feb-2025 06:29:54 UTC]   Automatic theme updates starting...
+[26-Feb-2025 06:29:54 UTC]   Automatic theme updates complete.
+[26-Feb-2025 06:29:54 UTC] Automatic updates complete.
+[26-Feb-2025 06:30:02 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[26-Feb-2025 06:35:00 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[26-Feb-2025 06:43:43 UTC] Automatic updates starting...
+[26-Feb-2025 06:43:43 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_optimized_size_keys` successfully executed.
+[26-Feb-2025 06:43:43 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_mime_type` successfully executed.
+[26-Feb-2025 06:43:43 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
+[26-Feb-2025 06:43:43 UTC]   Automatic plugin updates starting...
+[26-Feb-2025 06:43:43 UTC]   Automatic plugin updates complete.
+[26-Feb-2025 06:43:44 UTC]   Automatic theme updates starting...
+[26-Feb-2025 06:43:44 UTC]   Automatic theme updates complete.
+[26-Feb-2025 06:43:44 UTC] Automatic updates complete.
+[26-Feb-2025 06:48:44 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[26-Feb-2025 07:02:26 UTC] [info] WP Staging - WP STAGING Analytics Send Error: cURL error 6: Could not resolve host: analytics.wp-staging.com
