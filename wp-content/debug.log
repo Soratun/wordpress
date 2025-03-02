@@ -1575,3 +1575,11 @@ Stack trace:
 [01-Mar-2025 10:08:41 UTC]   Automatic theme updates complete.
 [01-Mar-2025 10:08:41 UTC] Automatic updates complete.
 [01-Mar-2025 10:18:52 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Applications/MAMP/htdocs/wordpress/wp-includes/class-wpdb.php on line 1982
+[02-Mar-2025 11:43:13 UTC] PHP Warning:  mysqli_real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\wordpress\wp-includes\class-wpdb.php on line 1982
+[02-Mar-2025 11:44:07 UTC] Automatic updates starting...
+[02-Mar-2025 11:44:08 UTC]   Automatic plugin updates starting...
+[02-Mar-2025 11:44:08 UTC]   Automatic plugin updates complete.
+[02-Mar-2025 11:44:09 UTC]   Automatic theme updates starting...
+[02-Mar-2025 11:44:09 UTC]   Automatic theme updates complete.
+[02-Mar-2025 11:44:09 UTC] Automatic updates complete.
+[02-Mar-2025 11:45:13 UTC] PHP Warning:  Attempt to read property "title" on null in C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-widgets.php on line 923

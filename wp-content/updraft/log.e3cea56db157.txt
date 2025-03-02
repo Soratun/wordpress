@@ -1,0 +1,351 @@
+0000.001 (0) Opened log file at time: Sun, 02 Mar 2025 11:46:10 +0000 on http://localhost:8888/wordpress
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.1 PHP: 8.0.30 (apache2handler, Windows NT NSAMAX 10.0 build 26100 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: th Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.8M | 58M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.013 (0) Free space on disk containing Updraft's temporary directory: 47027.2 MB
+0000.027 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.044 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.077 (0) Set semaphore last lock (fd) time to 2025-03-02 11:46:10
+0000.086 (0) Semaphore lock (fd) complete
+0000.116 (0) Backup run: resumption=0, nonce=e3cea56db157, file_nonce=e3cea56db157 begun at=1740915970 (0s ago), job type=backup
+0000.134 (0) Scheduling a resumption (1) after 300 seconds (1740916270) in case this run gets aborted
+0000.160 (0) Checking if we have a zip executable available
+0000.173 (0) Creation of backups of directories: beginning
+0000.194 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0006.937 (0) Total entities for the zip file: 1555 directories, 8693 files (0 skipped as non-modified), 173.9 MB
+0006.958 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0007.156 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 100 files added (on-disk size: 281.9 KB)
+0007.241 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 200 files added (on-disk size: 281.9 KB)
+0007.325 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 300 files added (on-disk size: 281.9 KB)
+0007.410 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 400 files added (on-disk size: 281.9 KB)
+0007.434 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 8693 files batched, 421 (422) added so far); re-opening (prior size: 281.9 KB)
+0008.966 (0) A useful amount of data was added after this amount of zip processing: 2.7 s (normalised: 2.7 s, rate: 9597.5 KB/s)
+0008.982 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.6760880947113, normalised_time=2.6673749452995, max_time=8.971076965332, data points known=1, old_max_bytes=26214400, new_max_bytes=58966738)
+0009.070 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 500 files added (on-disk size: 5712.8 KB)
+0009.164 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 600 files added (on-disk size: 5712.8 KB)
+0009.249 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 700 files added (on-disk size: 5712.8 KB)
+0009.336 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 800 files added (on-disk size: 5712.8 KB)
+0009.419 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 900 files added (on-disk size: 5712.8 KB)
+0009.514 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 1000 files added (on-disk size: 5712.8 KB)
+0009.618 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 1100 files added (on-disk size: 5712.8 KB)
+0009.709 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 1200 files added (on-disk size: 5712.8 KB)
+0009.809 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 1300 files added (on-disk size: 5712.8 KB)
+0009.909 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 1400 files added (on-disk size: 5712.8 KB)
+0009.934 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.4 MB, 8693 files batched, 1001 (1423) added so far); re-opening (prior size: 5712.8 KB)
+0011.937 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 1500 files added (on-disk size: 12779.9 KB)
+0012.044 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 1600 files added (on-disk size: 12779.9 KB)
+0012.141 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 1700 files added (on-disk size: 12779.9 KB)
+0012.239 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 1800 files added (on-disk size: 12779.9 KB)
+0012.338 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 1900 files added (on-disk size: 12779.9 KB)
+0012.431 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 2000 files added (on-disk size: 12779.9 KB)
+0012.526 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 2100 files added (on-disk size: 12779.9 KB)
+0012.624 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 2200 files added (on-disk size: 12779.9 KB)
+0012.721 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 2300 files added (on-disk size: 12779.9 KB)
+0012.819 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 2400 files added (on-disk size: 12779.9 KB)
+0012.847 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (25.6 MB, 8693 files batched, 1001 (2424) added so far); re-opening (prior size: 12779.9 KB)
+0014.301 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 2500 files added (on-disk size: 25014.8 KB)
+0014.390 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 2600 files added (on-disk size: 25014.8 KB)
+0014.476 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 2700 files added (on-disk size: 25014.8 KB)
+0014.566 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 2800 files added (on-disk size: 25014.8 KB)
+0014.660 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 2900 files added (on-disk size: 25014.8 KB)
+0014.756 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 3000 files added (on-disk size: 25014.8 KB)
+0014.851 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 3100 files added (on-disk size: 25014.8 KB)
+0014.944 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 3200 files added (on-disk size: 25014.8 KB)
+0015.040 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 3300 files added (on-disk size: 25014.8 KB)
+0015.140 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 3400 files added (on-disk size: 25014.8 KB)
+0015.174 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.5 MB, 8693 files batched, 1001 (3425) added so far); re-opening (prior size: 25014.8 KB)
+0015.966 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 3500 files added (on-disk size: 27292.7 KB)
+0016.060 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 3600 files added (on-disk size: 27292.7 KB)
+0016.157 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 3700 files added (on-disk size: 27292.7 KB)
+0016.263 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 3800 files added (on-disk size: 27292.7 KB)
+0016.367 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 3900 files added (on-disk size: 27292.7 KB)
+0016.466 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 4000 files added (on-disk size: 27292.7 KB)
+0016.570 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 4100 files added (on-disk size: 27292.7 KB)
+0016.670 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 4200 files added (on-disk size: 27292.7 KB)
+0016.771 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 4300 files added (on-disk size: 27292.7 KB)
+0016.864 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 4400 files added (on-disk size: 27292.7 KB)
+0016.902 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.7 MB, 8693 files batched, 1001 (4426) added so far); re-opening (prior size: 27292.7 KB)
+0018.198 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 4500 files added (on-disk size: 32091.6 KB)
+0018.288 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 4600 files added (on-disk size: 32091.6 KB)
+0018.385 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 4700 files added (on-disk size: 32091.6 KB)
+0018.469 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 4800 files added (on-disk size: 32091.6 KB)
+0018.544 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 4900 files added (on-disk size: 32091.6 KB)
+0018.621 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 5000 files added (on-disk size: 32091.6 KB)
+0018.706 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 5100 files added (on-disk size: 32091.6 KB)
+0018.794 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 5200 files added (on-disk size: 32091.6 KB)
+0018.880 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 5300 files added (on-disk size: 32091.6 KB)
+0019.084 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 5400 files added (on-disk size: 32091.6 KB)
+0019.216 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.6 MB, 8693 files batched, 1001 (5427) added so far); re-opening (prior size: 32091.6 KB)
+0020.972 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 5500 files added (on-disk size: 36096.6 KB)
+0021.060 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 5600 files added (on-disk size: 36096.6 KB)
+0021.149 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 5700 files added (on-disk size: 36096.6 KB)
+0021.244 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 5800 files added (on-disk size: 36096.6 KB)
+0021.340 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 5900 files added (on-disk size: 36096.6 KB)
+0021.428 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 6000 files added (on-disk size: 36096.6 KB)
+0021.527 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 6100 files added (on-disk size: 36096.6 KB)
+0021.619 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 6200 files added (on-disk size: 36096.6 KB)
+0021.726 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 6300 files added (on-disk size: 36096.6 KB)
+0021.835 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 6400 files added (on-disk size: 36096.6 KB)
+0021.875 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.8 MB, 8693 files batched, 1001 (6428) added so far); re-opening (prior size: 36096.6 KB)
+0023.859 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 6500 files added (on-disk size: 41768.6 KB)
+0023.971 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 6600 files added (on-disk size: 41768.6 KB)
+0024.089 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 6700 files added (on-disk size: 41768.6 KB)
+0024.178 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 6800 files added (on-disk size: 41768.6 KB)
+0024.270 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 6900 files added (on-disk size: 41768.6 KB)
+0024.373 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 7000 files added (on-disk size: 41768.6 KB)
+0024.477 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 7100 files added (on-disk size: 41768.6 KB)
+0024.687 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 7200 files added (on-disk size: 41768.6 KB)
+0024.823 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 7300 files added (on-disk size: 41768.6 KB)
+0024.923 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 7400 files added (on-disk size: 41768.6 KB)
+0024.954 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (25.5 MB, 8693 files batched, 1001 (7429) added so far); re-opening (prior size: 41768.6 KB)
+0027.825 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 7500 files added (on-disk size: 48894.2 KB)
+0027.929 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 7600 files added (on-disk size: 48894.2 KB)
+0028.028 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 7700 files added (on-disk size: 48894.2 KB)
+0028.125 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 7800 files added (on-disk size: 48894.2 KB)
+0028.211 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 7900 files added (on-disk size: 48894.2 KB)
+0028.307 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 8000 files added (on-disk size: 48894.2 KB)
+0028.394 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 8100 files added (on-disk size: 48894.2 KB)
+0028.485 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 8200 files added (on-disk size: 48894.2 KB)
+0028.572 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 8300 files added (on-disk size: 48894.2 KB)
+0028.660 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 8400 files added (on-disk size: 48894.2 KB)
+0028.690 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15.8 MB, 8693 files batched, 1001 (8430) added so far); re-opening (prior size: 48894.2 KB)
+0030.615 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 8500 files added (on-disk size: 57473.6 KB)
+0030.700 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.tmp: 8600 files added (on-disk size: 57473.6 KB)
+0032.010 (0) Creating zip file manifest (backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.list-temp.tmp)
+0032.085 (0) Successfully created zip file manifest (size: 801724)
+0032.804 (0) Created plugins zip (0) - 58237.3 KB in 32.6 s (1786.7 KB/s) (sha1: 679b5f5b6a5b393f6c135dc11074f390689e85fa, sha256: 4baceeecc3712aaba38240773cf23c075472be9c6329d2c493cda65647b3b091)
+0032.813 (0) Deleting old temporary file: log.9efe1b0c3666-browser.txt
+0032.840 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0032.848 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b261445561d3950d55b316cc3324a44)
+0034.255 (0) Google Drive: quota usage: used=8159.8 MB, total=388116480 MB, available=388108320.2 MB
+0034.262 (0) Google Drive: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip: Attempting to upload to Google Drive (into folder id: 1k1Tt4W5dQa2MRaeyOD_Y0T1rj63ocCIT)
+0035.942 (0) Googledrive chunked upload: 1.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 60.7 / 64)
+0037.025 (0) Googledrive chunked upload: 5.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 60.7 / 64)
+0038.685 (0) Googledrive chunked upload: 12.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 60.7 / 64)
+0041.842 (0) Googledrive chunked upload: 26.4 % uploaded (15728640)
+0043.507 (0) Googledrive chunked upload: 40.4 % uploaded (24117248 - increasing chunk size to 16384 KB - memory usage: 60.7 / 64)
+0048.235 (0) Googledrive chunked upload: 68.6 % uploaded (40894464)
+0053.047 (0) Googledrive chunked upload: 96.7 % uploaded (57671680)
+0055.127 (0) Googledrive chunked upload: 100 % uploaded (57671680)
+0055.148 (0) Google Drive: OK: Archive backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip uploaded in 20.88 seconds
+0055.155 (0) Recording as successfully uploaded: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip
+0055.285 (0) Deleting local file: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip: OK
+0055.315 (0) Beginning creation of dump of themes (split every: 400 MB)
+0056.493 (0) Total entities for the zip file: 382 directories, 1239 files (0 skipped as non-modified), 34.9 MB
+0056.583 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0056.667 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0056.859 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0057.012 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0057.179 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0057.311 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0057.438 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0057.539 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0057.631 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0057.785 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0057.866 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (28.8 MB, 1239 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0060.001 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip.tmp: 1100 files added (on-disk size: 13827.2 KB)
+0060.142 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip.tmp: 1200 files added (on-disk size: 13827.2 KB)
+0060.662 (0) Creating zip file manifest (backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip.list-temp.tmp)
+0060.681 (0) Successfully created zip file manifest (size: 99397)
+0060.937 (0) Created themes zip (0) - 19174.7 KB in 5.6 s (3423.8 KB/s) (sha1: 2986fe9510d46623b177f69fd168db625b484931, sha256: c22e8b935e7989928d5d276db7b4e2c204664d49bd807ec624802d9e8c81e0af)
+0060.970 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0061.004 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b261445561d3950d55b316cc3324a44)
+0061.482 (0) Google Drive: quota usage: used=8216.7 MB, total=388116480 MB, available=388108263.3 MB
+0061.487 (0) Google Drive: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip: Attempting to upload to Google Drive (into folder id: 1k1Tt4W5dQa2MRaeyOD_Y0T1rj63ocCIT)
+0062.900 (0) Googledrive chunked upload: 5.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 59.3 / 64)
+0063.831 (0) Googledrive chunked upload: 16 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 59.3 / 64)
+0065.359 (0) Googledrive chunked upload: 37.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 59.3 / 64)
+0067.422 (0) Googledrive chunked upload: 80.1 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 59.3 / 64)
+0071.012 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0071.045 (0) Google Drive: OK: Archive backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip uploaded in 9.55 seconds
+0071.053 (0) Recording as successfully uploaded: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip
+0071.072 (0) Deleting local file: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip: OK
+0071.104 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0071.110 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content/uploads
+0071.123 (0) finding files: 2025: adding to list (1)
+0071.132 (0) finding files: elementor: adding to list (2)
+0071.139 (0) finding files: evf-logs: adding to list (3)
+0071.150 (0) finding files: forminator: adding to list (4)
+0071.165 (0) finding files: ultimatemember: adding to list (5)
+0071.172 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0071.221 (0) Total entities for the zip file: 11 directories, 45 files (0 skipped as non-modified), 2.9 MB
+0071.323 (0) Creating zip file manifest (backup_2025-03-02-1146_DaffXXXX_e3cea56db157-uploads.zip.list-temp.tmp)
+0071.334 (0) Successfully created zip file manifest (size: 2667)
+0071.613 (0) Created uploads zip (0) - 2732.6 KB in 0.4 s (6457.6 KB/s) (sha1: a7d7494ae975a791d45ea37d37e367ea39f9c3e0, sha256: c13b59149b4fa67f4996c9def009a039a29a584838878b22c73a36902d0d4b89)
+0071.634 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0071.639 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b261445561d3950d55b316cc3324a44)
+0072.060 (0) Google Drive: quota usage: used=8235.4 MB, total=388116480 MB, available=388108244.6 MB
+0072.071 (0) Google Drive: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-uploads.zip: Attempting to upload to Google Drive (into folder id: 1k1Tt4W5dQa2MRaeyOD_Y0T1rj63ocCIT)
+0073.292 (0) Googledrive chunked upload: 37.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 59.1 / 64)
+0075.583 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0075.614 (0) Google Drive: OK: Archive backup_2025-03-02-1146_DaffXXXX_e3cea56db157-uploads.zip uploaded in 3.54 seconds
+0075.620 (0) Recording as successfully uploaded: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-uploads.zip
+0075.638 (0) Deleting local file: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-uploads.zip: OK
+0075.660 (0) No backup of mu-plugins: excluded by user's options
+0075.672 (0) Beginning backup of other directories found in the content directory (index: 0)
+0075.678 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0075.687 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content
+0075.694 (0) finding files: debug.log: skipping: excluded by options
+0075.702 (0) finding files: index.php: adding to list (1)
+0075.709 (0) finding files: index.php-old: adding to list (2)
+0075.722 (0) finding files: languages: adding to list (3)
+0075.730 (0) finding files: languages-old: adding to list (4)
+0075.736 (0) finding files: plugins: skipping: this is the plugins directory
+0075.742 (0) finding files: themes: skipping: this is the themes directory
+0075.759 (0) finding files: updraft: skipping: this is the updraft directory
+0075.768 (0) finding files: uploads: skipping: this is the uploads directory
+0075.882 (0) Total entities for the zip file: 3 directories, 126 files (0 skipped as non-modified), 8.9 MB
+0075.984 (0) Zip: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0077.638 (0) Creating zip file manifest (backup_2025-03-02-1146_DaffXXXX_e3cea56db157-others.zip.list-temp.tmp)
+0077.650 (0) Successfully created zip file manifest (size: 7320)
+0077.718 (0) Created others zip (0) - 1957.7 KB in 1.9 s (1015.9 KB/s) (sha1: cacfcd5df8211602cd063d3ac2f84cc4075dd186, sha256: 2a79532d91721aaf54c10eca8da1edb4f4c8fc9524a9ad1c34614f487023feea)
+0077.748 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0077.758 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b261445561d3950d55b316cc3324a44)
+0078.208 (0) Google Drive: quota usage: used=8238.1 MB, total=388116480 MB, available=388108241.9 MB
+0078.216 (0) Google Drive: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-others.zip: Attempting to upload to Google Drive (into folder id: 1k1Tt4W5dQa2MRaeyOD_Y0T1rj63ocCIT)
+0079.583 (0) Googledrive chunked upload: 52.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 59.1 / 64)
+0081.463 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0081.486 (0) Google Drive: OK: Archive backup_2025-03-02-1146_DaffXXXX_e3cea56db157-others.zip uploaded in 3.26 seconds
+0081.494 (0) Recording as successfully uploaded: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-others.zip
+0081.512 (0) Deleting local file: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-others.zip: OK
+0081.571 (0) Saving backup status to database (elements: 8)
+0081.597 (0) Beginning creation of database dump (WordPress DB)
+0081.604 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0081.623 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe
+0081.989 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1457 bytes total)
+0082.038 (0) Working binary mysqldump found: "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe"
+0082.136 (0) Table wp_options: Total expected rows (via COUNT): 403
+0082.146 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.256 (0) Table wp_options: Rows added in this batch (next record: 1355): 396 (uncompressed bytes in this segment=2078878) in 0.14 seconds
+0082.319 (0) Table wp_options: finishing file(s) (2, 380.3 KB)
+0082.345 (0) Table wp_users: Total expected rows (via COUNT): 5
+0082.352 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.367 (0) Table wp_users: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1696) in 0.03 seconds
+0082.399 (0) Table wp_users: finishing file(s) (2, 0.8 KB)
+0082.428 (0) Table wp_usermeta: Total expected rows (via COUNT): 119
+0082.437 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.451 (0) Table wp_usermeta: Rows added in this batch (next record: 145): 119 (uncompressed bytes in this segment=8988) in 0.04 seconds
+0082.571 (0) Table wp_usermeta: finishing file(s) (2, 2.7 KB)
+0082.608 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0082.645 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.06 seconds
+0082.692 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0082.728 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0082.736 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.749 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1882) in 0.03 seconds
+0082.773 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0082.794 (0) Table wp_links: Total expected rows (via COUNT): 0
+0082.810 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.02 seconds
+0082.838 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0082.864 (0) Table wp_postmeta: Total expected rows (via COUNT): 698
+0082.871 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.891 (0) Table wp_postmeta: Rows added in this batch (next record: 1264): 698 (uncompressed bytes in this segment=113940) in 0.04 seconds
+0082.928 (0) Table wp_postmeta: finishing file(s) (2, 12.2 KB)
+0082.963 (0) Table wp_posts: Total expected rows (via COUNT): 153
+0082.969 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.991 (0) Table wp_posts: Rows added in this batch (next record: 184): 153 (uncompressed bytes in this segment=95381) in 0.04 seconds
+0083.049 (0) Table wp_posts: finishing file(s) (2, 10 KB)
+0083.081 (0) Table wp_signups: Total expected rows (approximate): 0
+0083.098 (0) Table wp_signups: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=859) in 0.02 seconds
+0083.141 (0) Table wp_signups: finishing file(s) (2, 0.4 KB)
+0083.173 (0) Table wp_term_relationships: Total expected rows (approximate): 10
+0083.188 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 10 (uncompressed bytes in this segment=814) in 0.02 seconds
+0083.229 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0083.270 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0083.277 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.289 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=951) in 0.05 seconds
+0083.323 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0083.351 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0083.364 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.02 seconds
+0083.398 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0083.418 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0083.427 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.439 (0) Table wp_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=793) in 0.03 seconds
+0083.467 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0083.493 (0) Table wp_e_events: Total expected rows (via COUNT): 8
+0083.499 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.598 (0) Table wp_e_events: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=2133) in 0.11 seconds
+0083.677 (0) Table wp_e_events: finishing file(s) (2, 0.7 KB)
+0083.713 (0) Table wp_um_metadata: Total expected rows (via COUNT): 0
+0083.745 (0) Table wp_um_metadata: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=669) in 0.05 seconds
+0083.794 (0) Table wp_um_metadata: finishing file(s) (2, 0.4 KB)
+0083.872 (0) Table wp_wp_phpmyadmin_extension__errors_log: Total expected rows (via COUNT): 0
+0083.881 (0) Table wp_wp_phpmyadmin_extension__errors_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=717) in 0.04 seconds
+0083.938 (0) Table wp_wp_phpmyadmin_extension__errors_log: finishing file(s) (2, 0.4 KB)
+0083.954 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\wordpress/wp-content/updraft/backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db.gz (line 1923, C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0084.011 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_options.table.tmpr1356.gz (1/16/fopen): adding to final database dump
+0084.208 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_options.table.gz (2/16/fopen): adding to final database dump
+0084.220 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_users.table.tmpr6.gz (3/16/fopen): adding to final database dump
+0084.227 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_users.table.gz (4/16/fopen): adding to final database dump
+0084.234 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_usermeta.table.tmpr146.gz (5/16/fopen): adding to final database dump
+0084.240 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_usermeta.table.gz (6/16/fopen): adding to final database dump
+0084.249 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_commentmeta.table.tmpr0.gz (7/16/fopen): adding to final database dump
+0084.256 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_commentmeta.table.gz (8/16/fopen): adding to final database dump
+0084.261 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_comments.table.tmpr2.gz (9/16/fopen): adding to final database dump
+0084.268 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_comments.table.gz (10/16/fopen): adding to final database dump
+0084.275 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_links.table.tmpr0.gz (11/16/fopen): adding to final database dump
+0084.282 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_links.table.gz (12/16/fopen): adding to final database dump
+0084.291 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_postmeta.table.tmpr1265.gz (13/16/fopen): adding to final database dump
+0084.299 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_postmeta.table.gz (14/16/fopen): adding to final database dump
+0084.306 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_posts.table.tmpr185.gz (15/16/fopen): adding to final database dump
+0084.313 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_posts.table.gz (16/16/fopen): adding to final database dump
+0084.322 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_signups.table.tmpr1.gz (17/16/fopen): adding to final database dump
+0084.331 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_signups.table.gz (18/16/fopen): adding to final database dump
+0084.339 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_term_relationships.table.tmpr100001.gz (19/16/fopen): adding to final database dump
+0084.346 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_term_relationships.table.gz (20/16/fopen): adding to final database dump
+0084.356 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_term_taxonomy.table.tmpr5.gz (21/16/fopen): adding to final database dump
+0084.364 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_term_taxonomy.table.gz (22/16/fopen): adding to final database dump
+0084.373 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_termmeta.table.tmpr0.gz (23/16/fopen): adding to final database dump
+0084.382 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_termmeta.table.gz (24/16/fopen): adding to final database dump
+0084.389 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_terms.table.tmpr5.gz (25/16/fopen): adding to final database dump
+0084.395 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_terms.table.gz (26/16/fopen): adding to final database dump
+0084.401 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_e_events.table.tmpr9.gz (27/16/fopen): adding to final database dump
+0084.409 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_e_events.table.gz (28/16/fopen): adding to final database dump
+0084.419 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_um_metadata.table.tmpr0.gz (29/16/fopen): adding to final database dump
+0084.430 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_um_metadata.table.gz (30/16/fopen): adding to final database dump
+0084.438 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_wp_phpmyadmin_extension__errors_log.table.tmpr0.gz (31/16/fopen): adding to final database dump
+0084.444 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db-table-wp_wp_phpmyadmin_extension__errors_log.table.gz (32/16/fopen): adding to final database dump
+0084.472 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db.gz: finished writing out complete database file (411.5 KB)
+0084.529 (0) Total database tables backed up: 16 (backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db.gz, size: 421476, sha1: 0514dc7b8be6499f21a0c3ca7471a512d6f61ffd, sha256: e7000639aeb7acecf4fca2fa371cab14f98c6231a15bec109eaf1384428c41f4)
+0084.564 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip: plugins: This file has already been successfully uploaded
+0084.571 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip: themes: This file has already been successfully uploaded
+0084.577 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-uploads.zip: uploads: This file has already been successfully uploaded
+0084.583 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-others.zip: others: This file has already been successfully uploaded
+0084.591 (0) backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db.gz: db: This file has not yet been successfully uploaded: will queue
+0084.598 (0) Saving backup history. Total backup size: 80.6 MB
+0084.613 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0084.634 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0084.641 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b261445561d3950d55b316cc3324a44)
+0085.206 (0) Google Drive: quota usage: used=8240 MB, total=388116480 MB, available=388108240 MB
+0085.214 (0) Google Drive: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db.gz: Attempting to upload to Google Drive (into folder id: 1k1Tt4W5dQa2MRaeyOD_Y0T1rj63ocCIT)
+0087.673 (0) Googledrive chunked upload: 100 % uploaded
+0087.700 (0) Google Drive: OK: Archive backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db.gz uploaded in 2.48 seconds
+0087.707 (0) Recording as successfully uploaded: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db.gz
+0087.722 (0) Deleting local file: backup_2025-03-02-1146_DaffXXXX_e3cea56db157-db.gz: OK
+0087.732 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0087.740 (0) Number of backup sets in history: 2; groups (db): 1
+0087.746 (0) Examining (for databases) backup set with group_id=0, nonce=e3cea56db157, datestamp=1740915970 (Mar 02 2025 11:46:10)
+0087.753 (0) This backup set is the backup set just made, so will not be deleted.
+0087.753 (0) Examining (for databases) backup set with group_id=0, nonce=13b3c04a89f7, datestamp=1740834886 (Mar 01 2025 13:14:46)
+0087.753 (0) This backup set (1740834886) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0087.753 (0) Number of backup sets in history: 2; groups (files): 1
+0087.759 (0) Examining (for files) backup set with nonce=e3cea56db157, datestamp=1740915970 (Mar 02 2025 11:46:10)
+0087.759 (0) This backup set is the backup set just made, so will not be deleted.
+0087.764 (0) This backup set is the backup set just made, so will not be deleted.
+0087.764 (0) This backup set is the backup set just made, so will not be deleted.
+0087.764 (0) This backup set is the backup set just made, so will not be deleted.
+0087.764 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0087.769 (0) Examining (for files) backup set with nonce=13b3c04a89f7, datestamp=1740834886 (Mar 01 2025 13:14:46)
+0087.769 (0) This backup set (1740834886) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0087.769 (0) This backup set (1740834886) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0087.769 (0) This backup set (1740834886) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0087.769 (0) This backup set (1740834886) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0087.769 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0087.769 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0087.783 (0) Resume backup (e3cea56db157, 0): finish run
+0087.799 (0) Decremented the semaphore (fd) by 1
+0087.812 (0) Semaphore (fd) unlocked
+0087.834 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0087.861 (0) Deleting zip manifest (backup_2025-03-02-1146_DaffXXXX_e3cea56db157-plugins.zip.list.tmp)
+0087.870 (0) Deleting zip manifest (backup_2025-03-02-1146_DaffXXXX_e3cea56db157-themes.zip.list.tmp)
+0087.877 (0) Deleting zip manifest (backup_2025-03-02-1146_DaffXXXX_e3cea56db157-uploads.zip.list.tmp)
+0087.894 (0) Deleting zip manifest (backup_2025-03-02-1146_DaffXXXX_e3cea56db157-others.zip.list.tmp)
+0087.900 (0) No email will/can be sent - the user has not configured an email address.
+0087.907 (0) The backup succeeded and is now complete
