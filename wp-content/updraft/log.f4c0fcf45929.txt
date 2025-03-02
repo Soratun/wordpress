@@ -1,0 +1,15 @@
+0000.001 () Opened log file at time: Sun, 02 Mar 2025 11:54:42 +0000 on http://localhost:8888/wordpress
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.1 PHP: 8.3.14 (cgi-fcgi, Darwin MacBook-Air.local 24.3.0 Darwin Kernel Version 24.3.0: Thu Jan  2 20:23:36 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T8112 arm64) MySQL: 8.0.40 (max packet size=67108864) WPLANG: th Server: Apache/2.4.62 (Unix) OpenSSL/1.1.1w mod_fastcgi/mod_fastcgi-SNAP-0910052141 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 56.5M | 58.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.001 () Free space on disk containing Updraft's temporary directory: 271942.2 MB
+0000.019 () Restore setup, now closing connection and starting restore over AJAX.
+0000.001 () Opened log file at time: Sun, 02 Mar 2025 11:54:43 +0000 on http://localhost:8888/wordpress
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.1 PHP: 8.3.14 (cgi-fcgi, Darwin MacBook-Air.local 24.3.0 Darwin Kernel Version 24.3.0: Thu Jan  2 20:23:36 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T8112 arm64) MySQL: 8.0.40 (max packet size=67108864) WPLANG: th Server: Apache/2.4.62 (Unix) OpenSSL/1.1.1w mod_fastcgi/mod_fastcgi-SNAP-0910052141 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 53M | 54.5M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.001 () Free space on disk containing Updraft's temporary directory: 271942.2 MB
+0000.014 () Ensuring WP_Filesystem is setup for a restore
+0000.014 () WP_Filesystem is setup and ready for a restore
+0000.016 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_signups","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_e_events","wp_um_metadata","wp_wp_phpmyadmin_extension__errors_log"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.016 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.017 () Error message: Existing unremoved folders from a previous restore exist (please use the "Delete old folders" button to delete them before trying again): /Applications/MAMP/htdocs/wordpress/wp-content/updraft/plugins-old
+0000.018 () Restore failed...
+0000.018 () Error message: Existing unremoved folders from a previous restore exist (please use the "Delete old folders" button to delete them before trying again): /Applications/MAMP/htdocs/wordpress/wp-content/updraft/plugins-old
+0000.018 () Restore failed
