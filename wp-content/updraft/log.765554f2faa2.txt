@@ -1,0 +1,429 @@
+0000.001 (0) Opened log file at time: Tue, 04 Mar 2025 18:03:48 +0000 on http://localhost:8888/wordpress
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.1 PHP: 8.3.1 (apache2handler, Windows NT SINZARA 6.2 build 9200 (Windows 8 Professional Edition) AMD64) MySQL: 5.7.24 (max packet size=33554432) WPLANG: th Server: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.3.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 79.3M | 82M) multisite: N openssl: OpenSSL 3.0.12 24 Oct 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 57925.5 MB
+0000.015 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.019 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.022 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2025-03-04 18:03:48
+0000.024 (0) Semaphore (fd, wp_options) reset to 1
+0000.027 (0) Set semaphore last lock (fd) time to 2025-03-04 18:03:48
+0000.029 (0) Semaphore lock (fd) complete
+0000.033 (0) Backup run: resumption=0, nonce=765554f2faa2, file_nonce=765554f2faa2 begun at=1741111428 (0s ago), job type=backup
+0000.036 (0) Scheduling a resumption (1) after 300 seconds (1741111728) in case this run gets aborted
+0000.050 (0) Checking if we have a zip executable available
+0000.054 (0) Creation of backups of directories: beginning
+0000.061 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0006.216 (0) Total entities for the zip file: 1631 directories, 9306 files (0 skipped as non-modified), 191.8 MB
+0006.227 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0006.422 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 100 files added (on-disk size: 298.4 KB)
+0006.507 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 200 files added (on-disk size: 298.4 KB)
+0006.606 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 300 files added (on-disk size: 298.4 KB)
+0006.700 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 400 files added (on-disk size: 298.4 KB)
+0006.724 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 9306 files batched, 425 (426) added so far); re-opening (prior size: 298.4 KB)
+0008.172 (0) A useful amount of data was added after this amount of zip processing: 2.4 s (normalised: 2.4 s, rate: 10798.3 KB/s)
+0008.177 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.3742659091949, normalised_time=2.3707537852002, max_time=8.1737771034241, data points known=1, old_max_bytes=26214400, new_max_bytes=66344468)
+0008.280 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 500 files added (on-disk size: 5742.8 KB)
+0008.367 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 600 files added (on-disk size: 5742.8 KB)
+0008.446 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 700 files added (on-disk size: 5742.8 KB)
+0008.533 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 800 files added (on-disk size: 5742.8 KB)
+0008.624 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 900 files added (on-disk size: 5742.8 KB)
+0008.711 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 1000 files added (on-disk size: 5742.8 KB)
+0008.797 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 1100 files added (on-disk size: 5742.8 KB)
+0008.884 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 1200 files added (on-disk size: 5742.8 KB)
+0008.973 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 1300 files added (on-disk size: 5742.8 KB)
+0009.070 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 1400 files added (on-disk size: 5742.8 KB)
+0009.096 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.1 MB, 9306 files batched, 1001 (1427) added so far); re-opening (prior size: 5742.8 KB)
+0010.994 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 1500 files added (on-disk size: 12777.9 KB)
+0011.088 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 1600 files added (on-disk size: 12777.9 KB)
+0011.178 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 1700 files added (on-disk size: 12777.9 KB)
+0011.260 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 1800 files added (on-disk size: 12777.9 KB)
+0011.350 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 1900 files added (on-disk size: 12777.9 KB)
+0011.439 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 2000 files added (on-disk size: 12777.9 KB)
+0011.530 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 2100 files added (on-disk size: 12777.9 KB)
+0011.614 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 2200 files added (on-disk size: 12777.9 KB)
+0011.697 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 2300 files added (on-disk size: 12777.9 KB)
+0011.780 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 2400 files added (on-disk size: 12777.9 KB)
+0011.805 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.7 MB, 9306 files batched, 1001 (2428) added so far); re-opening (prior size: 12777.9 KB)
+0013.429 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 2500 files added (on-disk size: 26060.6 KB)
+0013.518 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 2600 files added (on-disk size: 26060.6 KB)
+0013.600 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 2700 files added (on-disk size: 26060.6 KB)
+0013.684 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 2800 files added (on-disk size: 26060.6 KB)
+0013.785 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 2900 files added (on-disk size: 26060.6 KB)
+0013.868 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 3000 files added (on-disk size: 26060.6 KB)
+0013.966 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 3100 files added (on-disk size: 26060.6 KB)
+0014.054 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 3200 files added (on-disk size: 26060.6 KB)
+0014.147 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 3300 files added (on-disk size: 26060.6 KB)
+0014.232 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 3400 files added (on-disk size: 26060.6 KB)
+0014.259 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.6 MB, 9306 files batched, 1001 (3429) added so far); re-opening (prior size: 26060.6 KB)
+0015.769 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 3500 files added (on-disk size: 36599.1 KB)
+0015.856 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 3600 files added (on-disk size: 36599.1 KB)
+0015.956 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 3700 files added (on-disk size: 36599.1 KB)
+0016.041 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 3800 files added (on-disk size: 36599.1 KB)
+0016.124 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 3900 files added (on-disk size: 36599.1 KB)
+0016.208 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 4000 files added (on-disk size: 36599.1 KB)
+0016.294 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 4100 files added (on-disk size: 36599.1 KB)
+0016.376 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 4200 files added (on-disk size: 36599.1 KB)
+0016.458 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 4300 files added (on-disk size: 36599.1 KB)
+0016.559 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 4400 files added (on-disk size: 36599.1 KB)
+0016.591 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (4.4 MB, 9306 files batched, 1001 (4430) added so far); re-opening (prior size: 36599.1 KB)
+0017.450 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 4500 files added (on-disk size: 38135.6 KB)
+0017.534 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 4600 files added (on-disk size: 38135.6 KB)
+0017.621 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 4700 files added (on-disk size: 38135.6 KB)
+0017.709 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 4800 files added (on-disk size: 38135.6 KB)
+0017.811 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 4900 files added (on-disk size: 38135.6 KB)
+0017.908 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 5000 files added (on-disk size: 38135.6 KB)
+0017.991 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 5100 files added (on-disk size: 38135.6 KB)
+0018.076 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 5200 files added (on-disk size: 38135.6 KB)
+0018.160 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 5300 files added (on-disk size: 38135.6 KB)
+0018.256 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 5400 files added (on-disk size: 38135.6 KB)
+0018.285 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (27.5 MB, 9306 files batched, 1001 (5431) added so far); re-opening (prior size: 38135.6 KB)
+0022.283 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 5500 files added (on-disk size: 45023.3 KB)
+0022.370 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 5600 files added (on-disk size: 45023.3 KB)
+0022.465 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 5700 files added (on-disk size: 45023.3 KB)
+0022.547 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 5800 files added (on-disk size: 45023.3 KB)
+0022.630 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 5900 files added (on-disk size: 45023.3 KB)
+0022.715 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 6000 files added (on-disk size: 45023.3 KB)
+0022.799 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 6100 files added (on-disk size: 45023.3 KB)
+0022.883 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 6200 files added (on-disk size: 45023.3 KB)
+0022.975 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 6300 files added (on-disk size: 45023.3 KB)
+0023.057 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 6400 files added (on-disk size: 45023.3 KB)
+0023.086 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.3 MB, 9306 files batched, 1001 (6432) added so far); re-opening (prior size: 45023.3 KB)
+0024.119 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 6500 files added (on-disk size: 47260 KB)
+0024.198 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 6600 files added (on-disk size: 47260 KB)
+0024.278 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 6700 files added (on-disk size: 47260 KB)
+0024.357 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 6800 files added (on-disk size: 47260 KB)
+0024.439 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 6900 files added (on-disk size: 47260 KB)
+0024.524 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 7000 files added (on-disk size: 47260 KB)
+0024.604 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 7100 files added (on-disk size: 47260 KB)
+0024.693 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 7200 files added (on-disk size: 47260 KB)
+0024.776 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 7300 files added (on-disk size: 47260 KB)
+0024.860 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 7400 files added (on-disk size: 47260 KB)
+0024.889 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.9 MB, 9306 files batched, 1001 (7433) added so far); re-opening (prior size: 47260 KB)
+0026.901 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 7500 files added (on-disk size: 52914.4 KB)
+0026.982 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 7600 files added (on-disk size: 52914.4 KB)
+0027.065 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 7700 files added (on-disk size: 52914.4 KB)
+0027.151 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 7800 files added (on-disk size: 52914.4 KB)
+0027.238 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 7900 files added (on-disk size: 52914.4 KB)
+0027.322 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 8000 files added (on-disk size: 52914.4 KB)
+0027.403 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 8100 files added (on-disk size: 52914.4 KB)
+0027.486 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 8200 files added (on-disk size: 52914.4 KB)
+0027.569 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 8300 files added (on-disk size: 52914.4 KB)
+0027.652 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 8400 files added (on-disk size: 52914.4 KB)
+0027.690 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.5 MB, 9306 files batched, 1001 (8434) added so far); re-opening (prior size: 52914.4 KB)
+0030.243 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 8500 files added (on-disk size: 59986 KB)
+0030.324 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 8600 files added (on-disk size: 59986 KB)
+0030.414 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 8700 files added (on-disk size: 59986 KB)
+0030.500 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 8800 files added (on-disk size: 59986 KB)
+0030.584 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 8900 files added (on-disk size: 59986 KB)
+0030.667 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 9000 files added (on-disk size: 59986 KB)
+0030.858 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 9100 files added (on-disk size: 59986 KB)
+0031.470 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 9200 files added (on-disk size: 59986 KB)
+0032.016 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.tmp: 9300 files added (on-disk size: 59986 KB)
+0034.180 (0) Creating zip file manifest (backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.list-temp.tmp)
+0034.245 (0) Successfully created zip file manifest (size: 865853)
+0034.925 (0) Created plugins zip (0) - 68429.9 KB in 34.9 s (1963.4 KB/s) (sha1: 4a124c91464e3fca016eb830c494b528281cdfee, sha256: 44af87cad4777495817bd1b3c4e3973609d56cb677da0fe1394de93e123b0105)
+0034.929 (0) Deleting old temporary file: log.d34db55833ad-browser.txt
+0034.932 (0) Deleting old temporary file: log.f5643b9bba74-browser.txt
+0034.945 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0034.948 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b261445561d3950d55b316cc3324a44)
+0037.503 (0) Google Drive: quota usage: used=9469 MB, total=388116480 MB, available=388107011 MB
+0037.505 (0) Google Drive: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip: Attempting to upload to Google Drive (into folder id: 1k1Tt4W5dQa2MRaeyOD_Y0T1rj63ocCIT)
+0039.615 (0) Googledrive chunked upload: 1.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 83.2 / 86)
+0040.880 (0) Googledrive chunked upload: 4.5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 83.2 / 86)
+0042.651 (0) Googledrive chunked upload: 10.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 83.2 / 86)
+0045.241 (0) Googledrive chunked upload: 22.4 % uploaded (15728640)
+0047.772 (0) Googledrive chunked upload: 34.4 % uploaded (24117248)
+0050.200 (0) Googledrive chunked upload: 46.4 % uploaded (32505856 - increasing chunk size to 16384 KB - memory usage: 83.2 / 86)
+0053.644 (0) Googledrive chunked upload: 70.3 % uploaded (49283072)
+0056.983 (0) Googledrive chunked upload: 94.3 % uploaded (66060288)
+0060.071 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0060.077 (0) Google Drive: OK: Archive backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip uploaded in 22.57 seconds
+0060.078 (0) Recording as successfully uploaded: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip
+0060.097 (0) Deleting local file: backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip: OK
+0060.112 (0) Beginning creation of dump of themes (split every: 400 MB)
+0060.941 (0) Total entities for the zip file: 382 directories, 1239 files (0 skipped as non-modified), 34.9 MB
+0061.029 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0061.120 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0061.223 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0061.324 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0061.625 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0062.270 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0062.582 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0062.684 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0062.770 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0062.798 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (28.5 MB, 929 (929) files added so far); re-opening (prior size: 0 KB)
+0064.488 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip.tmp: 1000 files added (on-disk size: 13670.9 KB)
+0064.572 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip.tmp: 1100 files added (on-disk size: 13670.9 KB)
+0064.652 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip.tmp: 1200 files added (on-disk size: 13670.9 KB)
+0065.115 (0) Creating zip file manifest (backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip.list-temp.tmp)
+0065.126 (0) Successfully created zip file manifest (size: 99397)
+0065.366 (0) Created themes zip (0) - 19174.7 KB in 5.2 s (3657.2 KB/s) (sha1: 0366de856fcf586949cbe8e7aaf4a8dcb3f0f31d, sha256: daa445e791ffd3584e1767a2a73ee2c0d0542e143169d30633b1acdb0bdc0a64)
+0065.377 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0065.379 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b261445561d3950d55b316cc3324a44)
+0066.148 (0) Google Drive: quota usage: used=9535.8 MB, total=388116480 MB, available=388106944.2 MB
+0066.151 (0) Google Drive: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip: Attempting to upload to Google Drive (into folder id: 1k1Tt4W5dQa2MRaeyOD_Y0T1rj63ocCIT)
+0068.232 (0) Googledrive chunked upload: 5.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 81.7 / 86)
+0069.470 (0) Googledrive chunked upload: 16 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 81.7 / 86)
+0071.377 (0) Googledrive chunked upload: 37.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 81.7 / 86)
+0073.884 (0) Googledrive chunked upload: 80.1 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 81.7 / 86)
+0077.191 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0077.197 (0) Google Drive: OK: Archive backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip uploaded in 11.04 seconds
+0077.198 (0) Recording as successfully uploaded: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip
+0077.206 (0) Deleting local file: backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip: OK
+0077.217 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0077.218 (0) Looking for candidates to backup in: C:\MAMP\htdocs\wordpress/wp-content/uploads
+0077.220 (0) finding files: 2025: adding to list (1)
+0077.222 (0) finding files: elementor: adding to list (2)
+0077.224 (0) finding files: ep: adding to list (3)
+0077.225 (0) finding files: evf-logs: adding to list (4)
+0077.227 (0) finding files: forminator: adding to list (5)
+0077.228 (0) finding files: ultimatemember: adding to list (6)
+0077.229 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0077.269 (0) Total entities for the zip file: 12 directories, 50 files (0 skipped as non-modified), 3.5 MB
+0077.364 (0) Creating zip file manifest (backup_2025-03-04-1803_Daffodil_765554f2faa2-uploads.zip.list-temp.tmp)
+0077.368 (0) Successfully created zip file manifest (size: 2993)
+0077.411 (0) Created uploads zip (0) - 3313.8 KB in 0.2 s (19305 KB/s) (sha1: eaffb6bf9c1dfaf7a447dc595ce8687ba1a3aec5, sha256: 46d9fb462074a7f57469b938cedbb148956923614fb63ce383999be87eaa99eb)
+0077.420 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0077.422 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b261445561d3950d55b316cc3324a44)
+0078.128 (0) Google Drive: quota usage: used=9554.5 MB, total=388116480 MB, available=388106925.5 MB
+0078.130 (0) Google Drive: backup_2025-03-04-1803_Daffodil_765554f2faa2-uploads.zip: Attempting to upload to Google Drive (into folder id: 1k1Tt4W5dQa2MRaeyOD_Y0T1rj63ocCIT)
+0080.275 (0) Googledrive chunked upload: 30.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 81.5 / 86)
+0081.514 (0) Googledrive chunked upload: 92.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 81.6 / 86)
+0083.537 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0083.544 (0) Google Drive: OK: Archive backup_2025-03-04-1803_Daffodil_765554f2faa2-uploads.zip uploaded in 5.41 seconds
+0083.546 (0) Recording as successfully uploaded: backup_2025-03-04-1803_Daffodil_765554f2faa2-uploads.zip
+0083.550 (0) Deleting local file: backup_2025-03-04-1803_Daffodil_765554f2faa2-uploads.zip: OK
+0083.559 (0) No backup of mu-plugins: excluded by user's options
+0083.563 (0) Beginning backup of other directories found in the content directory (index: 0)
+0083.565 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0083.566 (0) Looking for candidates to backup in: C:\MAMP\htdocs\wordpress/wp-content
+0083.568 (0) finding files: debug.log: skipping: excluded by options
+0083.570 (0) finding files: index.php: adding to list (1)
+0083.572 (0) finding files: index.php-old: adding to list (2)
+0083.573 (0) finding files: index.php-old-old: adding to list (3)
+0083.575 (0) finding files: languages: adding to list (4)
+0083.577 (0) finding files: languages-old: adding to list (5)
+0083.578 (0) finding files: languages-old-old: adding to list (6)
+0083.580 (0) finding files: plugins: skipping: this is the plugins directory
+0083.581 (0) finding files: plugins-old: adding to list (7)
+0083.582 (0) finding files: plugins-old-old: adding to list (8)
+0083.583 (0) finding files: themes: skipping: this is the themes directory
+0083.585 (0) finding files: themes-old: adding to list (9)
+0083.587 (0) finding files: themes-old-old: adding to list (10)
+0083.588 (0) finding files: updraft: skipping: this is the updraft directory
+0083.590 (0) finding files: upgrade: skipping: excluded by options
+0083.591 (0) finding files: upgrade-temp-backup: adding to list (11)
+0083.593 (0) finding files: uploads: skipping: this is the uploads directory
+0083.595 (0) finding files: uploads-old: adding to list (12)
+0083.596 (0) finding files: uploads-old-old: adding to list (13)
+0083.698 (0) Total entities for the zip file: 14 directories, 189 files (0 skipped as non-modified), 13.3 MB
+0083.792 (0) Zip: backup_2025-03-04-1803_Daffodil_765554f2faa2-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0085.795 (0) Creating zip file manifest (backup_2025-03-04-1803_Daffodil_765554f2faa2-others.zip.list-temp.tmp)
+0085.800 (0) Successfully created zip file manifest (size: 11345)
+0085.840 (0) Created others zip (0) - 2938.3 KB in 2.2 s (1316 KB/s) (sha1: 8932834cf3a8326aa49fac6b83a7846d57f8906f, sha256: 63c73462d44b6a03ca2758670a442f0fc77a8850d0a4460a3233283bcb30bbcd)
+0085.852 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0085.855 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b261445561d3950d55b316cc3324a44)
+0086.626 (0) Google Drive: quota usage: used=9557.8 MB, total=388116480 MB, available=388106922.2 MB
+0086.628 (0) Google Drive: backup_2025-03-04-1803_Daffodil_765554f2faa2-others.zip: Attempting to upload to Google Drive (into folder id: 1k1Tt4W5dQa2MRaeyOD_Y0T1rj63ocCIT)
+0088.836 (0) Googledrive chunked upload: 34.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 81.6 / 86)
+0091.386 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0091.392 (0) Google Drive: OK: Archive backup_2025-03-04-1803_Daffodil_765554f2faa2-others.zip uploaded in 4.76 seconds
+0091.393 (0) Recording as successfully uploaded: backup_2025-03-04-1803_Daffodil_765554f2faa2-others.zip
+0091.398 (0) Deleting local file: backup_2025-03-04-1803_Daffodil_765554f2faa2-others.zip: OK
+0091.414 (0) Saving backup status to database (elements: 8)
+0091.420 (0) Beginning creation of database dump (WordPress DB)
+0091.421 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0091.451 (0) Table wp_options: Total expected rows (via COUNT): 451
+0091.453 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.513 (0) Table wp_options: Rows added in this batch (next record: 1680): 446 (uncompressed bytes in this segment=1760942) in 0.07 seconds
+0091.527 (0) Table wp_options: finishing file(s) (2, 211.5 KB)
+0091.535 (0) Table wp_users: Total expected rows (via COUNT): 5
+0091.536 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.540 (0) Table wp_users: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1915) in 0.01 seconds
+0091.552 (0) Table wp_users: finishing file(s) (2, 0.9 KB)
+0091.565 (0) Table wp_usermeta: Total expected rows (via COUNT): 120
+0091.567 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.572 (0) Table wp_usermeta: Rows added in this batch (next record: 146): 120 (uncompressed bytes in this segment=8490) in 0.01 seconds
+0091.588 (0) Table wp_usermeta: finishing file(s) (2, 2.6 KB)
+0091.602 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0091.607 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.01 seconds
+0091.621 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0091.632 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0091.634 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.639 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2138) in 0.01 seconds
+0091.652 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0091.664 (0) Table wp_links: Total expected rows (via COUNT): 0
+0091.669 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.01 seconds
+0091.680 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0091.692 (0) Table wp_postmeta: Total expected rows (approximate): 1198
+0091.715 (0) Table wp_postmeta: Rows added in this batch (next record: 1972): 1214 (uncompressed bytes in this segment=447725) in 0.03 seconds
+0091.730 (0) Table wp_postmeta: finishing file(s) (2, 26 KB)
+0091.741 (0) Table wp_posts: Total expected rows (via COUNT): 252
+0091.742 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.758 (0) Table wp_posts: Rows added in this batch (next record: 289): 252 (uncompressed bytes in this segment=254231) in 0.02 seconds
+0091.776 (0) Table wp_posts: finishing file(s) (2, 21.5 KB)
+0091.787 (0) Table wp_signups: Total expected rows (approximate): 0
+0091.791 (0) Table wp_signups: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1065) in 0.00 seconds
+0091.805 (0) Table wp_signups: finishing file(s) (2, 0.4 KB)
+0091.814 (0) Table wp_term_relationships: Total expected rows (approximate): 28
+0091.820 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 28 (uncompressed bytes in this segment=1081) in 0.01 seconds
+0091.832 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0091.843 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 17
+0091.844 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.849 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=1730) in 0.01 seconds
+0091.863 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0091.873 (0) Table wp_termmeta: Total expected rows (via COUNT): 71
+0091.875 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.881 (0) Table wp_termmeta: Rows added in this batch (next record: 71): 71 (uncompressed bytes in this segment=3909) in 0.01 seconds
+0091.895 (0) Table wp_termmeta: finishing file(s) (2, 1 KB)
+0091.905 (0) Table wp_terms: Total expected rows (via COUNT): 17
+0091.906 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.911 (0) Table wp_terms: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=2417) in 0.01 seconds
+0091.923 (0) Table wp_terms: finishing file(s) (2, 0.9 KB)
+0091.934 (0) Table wp_e_events: Total expected rows (via COUNT): 8
+0091.935 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0091.938 (0) Table wp_e_events: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=2151) in 0.00 seconds
+0092.009 (0) Table wp_e_events: finishing file(s) (2, 0.7 KB)
+0092.023 (0) Table wp_em_price_options: Total expected rows (via COUNT): 0
+0092.028 (0) Table wp_em_price_options: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2248) in 0.01 seconds
+0092.045 (0) Table wp_em_price_options: finishing file(s) (2, 0.7 KB)
+0092.063 (0) Table wp_eventprime_checkout_fields: Total expected rows (via COUNT): 0
+0092.065 (0) Table wp_eventprime_checkout_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=922) in 0.01 seconds
+0092.083 (0) Table wp_eventprime_checkout_fields: finishing file(s) (2, 0.4 KB)
+0092.094 (0) Table wp_eventprime_ticket_categories: Total expected rows (via COUNT): 0
+0092.096 (0) Table wp_eventprime_ticket_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=913) in 0.00 seconds
+0092.109 (0) Table wp_eventprime_ticket_categories: finishing file(s) (2, 0.4 KB)
+0092.123 (0) Table wp_um_metadata: Total expected rows (via COUNT): 0
+0092.126 (0) Table wp_um_metadata: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=720) in 0.01 seconds
+0092.142 (0) Table wp_um_metadata: finishing file(s) (2, 0.4 KB)
+0092.156 (0) Table wp_wp_phpmyadmin_extension__errors_log: Total expected rows (via COUNT): 0
+0092.158 (0) Table wp_wp_phpmyadmin_extension__errors_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=810) in 0.01 seconds
+0092.171 (0) Table wp_wp_phpmyadmin_extension__errors_log: finishing file(s) (2, 0.4 KB)
+0092.183 (0) Table wp_wpuf_subscribers: Total expected rows (via COUNT): 0
+0092.185 (0) Table wp_wpuf_subscribers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=986) in 0.00 seconds
+0092.200 (0) Table wp_wpuf_subscribers: finishing file(s) (2, 0.4 KB)
+0092.214 (0) Table wp_wpuf_transaction: Total expected rows (via COUNT): 0
+0092.217 (0) Table wp_wpuf_transaction: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1462) in 0.01 seconds
+0092.236 (0) Table wp_wpuf_transaction: finishing file(s) (2, 0.5 KB)
+0092.239 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\MAMP\htdocs\wordpress/wp-content/updraft/backup_2025-03-04-1803_Daffodil_765554f2faa2-db.gz (line 1923, C:\MAMP\htdocs\wordpress\wp-content\plugins\updraftplus\backup.php)
+0092.244 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_options.table.tmpr1681.gz (1/21/fopen): adding to final database dump
+0092.255 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_options.table.gz (2/21/fopen): adding to final database dump
+0092.258 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_users.table.tmpr6.gz (3/21/fopen): adding to final database dump
+0092.260 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_users.table.gz (4/21/fopen): adding to final database dump
+0092.262 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_usermeta.table.tmpr147.gz (5/21/fopen): adding to final database dump
+0092.264 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_usermeta.table.gz (6/21/fopen): adding to final database dump
+0092.267 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_commentmeta.table.tmpr0.gz (7/21/fopen): adding to final database dump
+0092.269 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_commentmeta.table.gz (8/21/fopen): adding to final database dump
+0092.271 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_comments.table.tmpr2.gz (9/21/fopen): adding to final database dump
+0092.273 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_comments.table.gz (10/21/fopen): adding to final database dump
+0092.275 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_links.table.tmpr0.gz (11/21/fopen): adding to final database dump
+0092.277 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_links.table.gz (12/21/fopen): adding to final database dump
+0092.279 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_postmeta.table.tmpr1973.gz (13/21/fopen): adding to final database dump
+0092.283 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_postmeta.table.gz (14/21/fopen): adding to final database dump
+0092.285 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_posts.table.tmpr290.gz (15/21/fopen): adding to final database dump
+0092.289 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_posts.table.gz (16/21/fopen): adding to final database dump
+0092.291 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_signups.table.tmpr1.gz (17/21/fopen): adding to final database dump
+0092.294 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_signups.table.gz (18/21/fopen): adding to final database dump
+0092.296 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_term_relationships.table.tmpr100001.gz (19/21/fopen): adding to final database dump
+0092.298 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_term_relationships.table.gz (20/21/fopen): adding to final database dump
+0092.300 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_term_taxonomy.table.tmpr18.gz (21/21/fopen): adding to final database dump
+0092.303 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_term_taxonomy.table.gz (22/21/fopen): adding to final database dump
+0092.304 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_termmeta.table.tmpr72.gz (23/21/fopen): adding to final database dump
+0092.307 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_termmeta.table.gz (24/21/fopen): adding to final database dump
+0092.309 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_terms.table.tmpr18.gz (25/21/fopen): adding to final database dump
+0092.311 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_terms.table.gz (26/21/fopen): adding to final database dump
+0092.314 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_e_events.table.tmpr9.gz (27/21/fopen): adding to final database dump
+0092.316 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_e_events.table.gz (28/21/fopen): adding to final database dump
+0092.318 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_em_price_options.table.tmpr0.gz (29/21/fopen): adding to final database dump
+0092.321 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_em_price_options.table.gz (30/21/fopen): adding to final database dump
+0092.323 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_eventprime_checkout_fields.table.tmpr0.gz (31/21/fopen): adding to final database dump
+0092.325 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_eventprime_checkout_fields.table.gz (32/21/fopen): adding to final database dump
+0092.328 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_eventprime_ticket_categories.table.tmpr0.gz (33/21/fopen): adding to final database dump
+0092.331 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_eventprime_ticket_categories.table.gz (34/21/fopen): adding to final database dump
+0092.333 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_um_metadata.table.tmpr0.gz (35/21/fopen): adding to final database dump
+0092.336 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_um_metadata.table.gz (36/21/fopen): adding to final database dump
+0092.338 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_wp_phpmyadmin_extension__errors_log.table.tmpr0.gz (37/21/fopen): adding to final database dump
+0092.341 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_wp_phpmyadmin_extension__errors_log.table.gz (38/21/fopen): adding to final database dump
+0092.343 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_wpuf_subscribers.table.tmpr0.gz (39/21/fopen): adding to final database dump
+0092.347 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_wpuf_subscribers.table.gz (40/21/fopen): adding to final database dump
+0092.349 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_wpuf_transaction.table.tmpr0.gz (41/21/fopen): adding to final database dump
+0092.351 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db-table-wp_wpuf_transaction.table.gz (42/21/fopen): adding to final database dump
+0092.363 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db.gz: finished writing out complete database file (271.6 KB)
+0092.389 (0) Total database tables backed up: 21 (backup_2025-03-04-1803_Daffodil_765554f2faa2-db.gz, size: 278236, sha1: eaf6d78a377e8485888bbe9ed2fcef7df6c27e69, sha256: 57e4c1237471b1b38e940f63d5cc02307ba5221c385a04991ebd0c81b3724f33)
+0092.403 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip: plugins: This file has already been successfully uploaded
+0092.405 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip: themes: This file has already been successfully uploaded
+0092.407 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-uploads.zip: uploads: This file has already been successfully uploaded
+0092.409 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-others.zip: others: This file has already been successfully uploaded
+0092.411 (0) backup_2025-03-04-1803_Daffodil_765554f2faa2-db.gz: db: This file has not yet been successfully uploaded: will queue
+0092.413 (0) Saving backup history. Total backup size: 91.9 MB
+0092.419 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0092.425 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0092.427 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-5b261445561d3950d55b316cc3324a44)
+0093.160 (0) Google Drive: quota usage: used=9560.6 MB, total=388116480 MB, available=388106919.4 MB
+0093.162 (0) Google Drive: backup_2025-03-04-1803_Daffodil_765554f2faa2-db.gz: Attempting to upload to Google Drive (into folder id: 1k1Tt4W5dQa2MRaeyOD_Y0T1rj63ocCIT)
+0096.319 (0) Googledrive chunked upload: 100 % uploaded
+0096.326 (0) Google Drive: OK: Archive backup_2025-03-04-1803_Daffodil_765554f2faa2-db.gz uploaded in 3.16 seconds
+0096.329 (0) Recording as successfully uploaded: backup_2025-03-04-1803_Daffodil_765554f2faa2-db.gz
+0096.335 (0) Deleting local file: backup_2025-03-04-1803_Daffodil_765554f2faa2-db.gz: OK
+0096.340 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0096.343 (0) These backup set(s) were imported from a remote location, so will not be counted or pruned. Skipping: 1740921060, 1740835860
+0096.345 (0) Number of backup sets in history: 8; groups (db): 1
+0096.347 (0) Examining (for databases) backup set with group_id=0, nonce=765554f2faa2, datestamp=1741111428 (Mar 04 2025 18:03:48)
+0096.349 (0) This backup set is the backup set just made, so will not be deleted.
+0096.349 (0) Examining (for databases) backup set with group_id=0, nonce=5fe4f8310d32, datestamp=1740937853 (Mar 02 2025 17:50:53)
+0096.349 (0) This backup set (1740937853) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0096.349 (0) Examining (for databases) backup set with group_id=0, nonce=1b37e1bdfaaa, datestamp=1740917453 (Mar 02 2025 12:10:53)
+0096.349 (0) This backup set (1740917453) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.349 (0) Examining (for databases) backup set with group_id=0, nonce=c1ece906d43e, datestamp=1740917037 (Mar 02 2025 12:03:57)
+0096.349 (0) This backup set (1740917037) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.349 (0) Examining (for databases) backup set with group_id=0, nonce=ca2d34e0ac3c, datestamp=1740916609 (Mar 02 2025 11:56:49)
+0096.349 (0) This backup set (1740916609) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.349 (0) Examining (for databases) backup set with group_id=0, nonce=13b3c04a89f7, datestamp=1740834886 (Mar 01 2025 13:14:46)
+0096.349 (0) This backup set (1740834886) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.349 (0) Number of backup sets in history: 8; groups (files): 1
+0096.351 (0) Examining (for files) backup set with nonce=765554f2faa2, datestamp=1741111428 (Mar 04 2025 18:03:48)
+0096.351 (0) This backup set is the backup set just made, so will not be deleted.
+0096.353 (0) This backup set is the backup set just made, so will not be deleted.
+0096.353 (0) This backup set is the backup set just made, so will not be deleted.
+0096.353 (0) This backup set is the backup set just made, so will not be deleted.
+0096.353 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0096.355 (0) Examining (for files) backup set with nonce=5fe4f8310d32, datestamp=1740937853 (Mar 02 2025 17:50:53)
+0096.355 (0) This backup set (1740937853) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0096.355 (0) This backup set (1740937853) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0096.355 (0) This backup set (1740937853) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0096.355 (0) This backup set (1740937853) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0096.355 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0096.355 (0) Examining (for files) backup set with nonce=1b37e1bdfaaa, datestamp=1740917453 (Mar 02 2025 12:10:53)
+0096.355 (0) This backup set (1740917453) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set (1740917453) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set (1740917453) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set (1740917453) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0096.355 (0) Examining (for files) backup set with nonce=c1ece906d43e, datestamp=1740917037 (Mar 02 2025 12:03:57)
+0096.355 (0) This backup set (1740917037) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set (1740917037) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set (1740917037) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set (1740917037) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0096.355 (0) Examining (for files) backup set with nonce=ca2d34e0ac3c, datestamp=1740916609 (Mar 02 2025 11:56:49)
+0096.355 (0) This backup set (1740916609) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set (1740916609) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set (1740916609) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set (1740916609) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0096.355 (0) Examining (for files) backup set with nonce=13b3c04a89f7, datestamp=1740834886 (Mar 01 2025 13:14:46)
+0096.355 (0) This backup set (1740834886) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set (1740834886) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set (1740834886) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set (1740834886) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0096.355 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0096.355 (0) Retain: saving new backup history (sets now: 8) and finishing retain operation
+0096.361 (0) Resume backup (765554f2faa2, 0): finish run
+0096.367 (0) Decremented the semaphore (fd) by 1
+0096.371 (0) Semaphore (fd) unlocked
+0096.373 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0096.379 (0) Deleting zip manifest (backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip.list.tmp)
+0096.383 (0) Deleting zip manifest (backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip.list.tmp)
+0096.386 (0) Deleting zip manifest (backup_2025-03-04-1803_Daffodil_765554f2faa2-uploads.zip.list.tmp)
+0096.389 (0) Deleting zip manifest (backup_2025-03-04-1803_Daffodil_765554f2faa2-others.zip.list.tmp)
+0096.392 (0) No email will/can be sent - the user has not configured an email address.
+0096.394 (0) The backup succeeded and is now complete

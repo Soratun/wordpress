@@ -1,0 +1,15 @@
+0000.005 () Opened log file at time: Tue, 04 Mar 2025 17:26:57 +0000 on http://localhost:8888/wordpress
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.1 PHP: 8.3.1 (apache2handler, Windows NT SINZARA 6.2 build 9200 (Windows 8 Professional Edition) AMD64) MySQL: 5.7.24 (max packet size=33554432) WPLANG: th Server: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.3.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 66.3M | 68M) multisite: N openssl: OpenSSL 3.0.12 24 Oct 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.006 () Free space on disk containing Updraft's temporary directory: 57857 MB
+0000.038 () Restore setup, now closing connection and starting restore over AJAX.
+0000.002 () Opened log file at time: Tue, 04 Mar 2025 17:26:59 +0000 on http://localhost:8888/wordpress
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.1 PHP: 8.3.1 (apache2handler, Windows NT SINZARA 6.2 build 9200 (Windows 8 Professional Edition) AMD64) MySQL: 5.7.24 (max packet size=33554432) WPLANG: th Server: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.3.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 61.2M | 64M) multisite: N openssl: OpenSSL 3.0.12 24 Oct 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.003 () Free space on disk containing Updraft's temporary directory: 57851.7 MB
+0000.032 () Ensuring WP_Filesystem is setup for a restore
+0000.035 () WP_Filesystem is setup and ready for a restore
+0000.050 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_signups","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_e_events","wp_um_metadata","wp_wp_phpmyadmin_extension__errors_log","wp_wpuf_subscribers","wp_wpuf_transaction"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.056 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\MAMP\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.063 () Error message: Existing unremoved folders from a previous restore exist (please use the "Delete old folders" button to delete them before trying again): C:\MAMP\htdocs\wordpress/wp-content/updraft/plugins-old
+0000.069 () Restore failed...
+0000.069 () Error message: Existing unremoved folders from a previous restore exist (please use the "Delete old folders" button to delete them before trying again): C:\MAMP\htdocs\wordpress/wp-content/updraft/plugins-old
+0000.069 () Restore failed
