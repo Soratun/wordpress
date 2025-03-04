@@ -1,0 +1,161 @@
+0000.005 () Opened log file at time: Tue, 04 Mar 2025 18:29:16 +0000 on http://localhost:8888/wordpress
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.1 PHP: 8.3.1 (apache2handler, Windows NT SINZARA 6.2 build 9200 (Windows 8 Professional Edition) AMD64) MySQL: 5.7.24 (max packet size=33554432) WPLANG: th Server: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.3.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 81.6M | 84M) multisite: N openssl: OpenSSL 3.0.12 24 Oct 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.005 () Free space on disk containing Updraft's temporary directory: 58848.7 MB
+0000.038 () Restore setup, now closing connection and starting restore over AJAX.
+0000.003 () Opened log file at time: Tue, 04 Mar 2025 18:29:18 +0000 on http://localhost:8888/wordpress
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.1 PHP: 8.3.1 (apache2handler, Windows NT SINZARA 6.2 build 9200 (Windows 8 Professional Edition) AMD64) MySQL: 5.7.24 (max packet size=33554432) WPLANG: th Server: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.3.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 79.1M | 80M) multisite: N openssl: OpenSSL 3.0.12 24 Oct 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 58849 MB
+0000.033 () Ensuring WP_Filesystem is setup for a restore
+0000.036 () WP_Filesystem is setup and ready for a restore
+0000.043 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_signups","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_e_events","wp_em_price_options","wp_eventprime_checkout_fields","wp_eventprime_ticket_categories","wp_um_metadata","wp_wp_phpmyadmin_extension__errors_log","wp_wpuf_subscribers","wp_wpuf_transaction"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.049 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\MAMP\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.137 () Entity: db
+0000.137 () restore_backup(backup_file=backup_2025-03-04-1803_Daffodil_765554f2faa2-db.gz, type=db, info=a:0:{}, last_one=)
+0000.138 () Unpacking backup... (backup_2025-03-04-1803_Daffodil_765554f2faa2-db.gz, 0.3 Mb)
+0000.138 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\MAMP\htdocs\wordpress\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.141 () Database successfully unpacked
+0000.143 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.153 () Using direct MySQL access; value of use_mysqli is: 1
+0000.153 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.378 () Max packet size: 32 MB
+0000.379 () Entering maintenance mode
+0000.379 () เปิดใช้โหมดซ่อมบำรุง&#8230;
+0000.391 () Backup of: http://localhost:8888/wordpress
+0000.392 () Content URL: http://localhost:8888/wordpress/wp-content
+0000.392 () Uploads URL: http://localhost:8888/wordpress/wp-content/uploads
+0000.393 () Old table prefix: wp_
+0000.393 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.393 () Site information: multisite=0
+0000.393 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.394 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.394 () New table prefix: rl_
+0000.399 () Processing table (InnoDB): wp_options - will restore as: rl_options
+0003.283 () Atomic restore: dropping original table (wp_options)
+0003.358 () Atomic restore: renaming new table (rl_options) to final table name (wp_options)
+0003.372 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0003.463 () Processing table (InnoDB): wp_users - will restore as: rl_users
+0003.867 () Atomic restore: dropping original table (wp_users)
+0003.878 () Atomic restore: renaming new table (rl_users) to final table name (wp_users)
+0003.957 () Processing table (InnoDB): wp_usermeta - will restore as: rl_usermeta
+0004.097 () Atomic restore: dropping original table (wp_usermeta)
+0004.142 () Atomic restore: renaming new table (rl_usermeta) to final table name (wp_usermeta)
+0004.155 () Processing table (InnoDB): wp_commentmeta - will restore as: rl_commentmeta
+0004.341 () Atomic restore: dropping original table (wp_commentmeta)
+0004.353 () Atomic restore: renaming new table (rl_commentmeta) to final table name (wp_commentmeta)
+0004.371 () Processing table (InnoDB): wp_comments - will restore as: rl_comments
+0004.614 () Atomic restore: dropping original table (wp_comments)
+0004.630 () Atomic restore: renaming new table (rl_comments) to final table name (wp_comments)
+0004.713 () Processing table (InnoDB): wp_links - will restore as: rl_links
+0004.775 () Atomic restore: dropping original table (wp_links)
+0004.791 () Atomic restore: renaming new table (rl_links) to final table name (wp_links)
+0004.813 () Processing table (InnoDB): wp_postmeta - will restore as: rl_postmeta
+0005.095 () Atomic restore: dropping original table (wp_postmeta)
+0005.110 () Atomic restore: renaming new table (rl_postmeta) to final table name (wp_postmeta)
+0005.125 () Processing table (InnoDB): wp_posts - will restore as: rl_posts
+0005.269 () Atomic restore: dropping original table (wp_posts)
+0005.290 () Atomic restore: renaming new table (rl_posts) to final table name (wp_posts)
+0005.306 () Processing table (InnoDB): wp_signups - will restore as: rl_signups
+0005.386 () Atomic restore: dropping original table (wp_signups)
+0005.399 () Atomic restore: renaming new table (rl_signups) to final table name (wp_signups)
+0005.419 () Processing table (InnoDB): wp_term_relationships - will restore as: rl_term_relationships
+0005.488 () Atomic restore: dropping original table (wp_term_relationships)
+0005.528 () Atomic restore: renaming new table (rl_term_relationships) to final table name (wp_term_relationships)
+0005.542 () Processing table (InnoDB): wp_term_taxonomy - will restore as: rl_term_taxonomy
+0005.633 () Atomic restore: dropping original table (wp_term_taxonomy)
+0005.648 () Atomic restore: renaming new table (rl_term_taxonomy) to final table name (wp_term_taxonomy)
+0005.662 () Processing table (InnoDB): wp_termmeta - will restore as: rl_termmeta
+0005.740 () Atomic restore: dropping original table (wp_termmeta)
+0005.803 () Atomic restore: renaming new table (rl_termmeta) to final table name (wp_termmeta)
+0005.817 () Processing table (InnoDB): wp_terms - will restore as: rl_terms
+0005.892 () Atomic restore: dropping original table (wp_terms)
+0005.925 () Atomic restore: renaming new table (rl_terms) to final table name (wp_terms)
+0005.940 () Processing table (InnoDB): wp_e_events - will restore as: rl_e_events
+0006.001 () Atomic restore: dropping original table (wp_e_events)
+0006.039 () Database queries processed: 50 in 5.88 seconds
+0006.039 () Atomic restore: renaming new table (rl_e_events) to final table name (wp_e_events)
+0006.052 () Processing table (InnoDB): wp_em_price_options - will restore as: rl_em_price_options
+0006.097 () Atomic restore: dropping original table (wp_em_price_options)
+0006.110 () Atomic restore: renaming new table (rl_em_price_options) to final table name (wp_em_price_options)
+0006.129 () Processing table (InnoDB): wp_eventprime_checkout_fields - will restore as: rl_eventprime_checkout_fields
+0006.182 () Atomic restore: dropping original table (wp_eventprime_checkout_fields)
+0006.193 () Atomic restore: renaming new table (rl_eventprime_checkout_fields) to final table name (wp_eventprime_checkout_fields)
+0006.210 () Processing table (InnoDB): wp_eventprime_ticket_categories - will restore as: rl_eventprime_ticket_categories
+0006.253 () Atomic restore: dropping original table (wp_eventprime_ticket_categories)
+0006.266 () Atomic restore: renaming new table (rl_eventprime_ticket_categories) to final table name (wp_eventprime_ticket_categories)
+0006.284 () Processing table (InnoDB): wp_um_metadata - will restore as: rl_um_metadata
+0006.358 () Atomic restore: dropping original table (wp_um_metadata)
+0006.371 () Atomic restore: renaming new table (rl_um_metadata) to final table name (wp_um_metadata)
+0006.389 () Processing table (InnoDB): wp_wp_phpmyadmin_extension__errors_log - will restore as: rl_wp_phpmyadmin_extension__errors_log
+0006.440 () Atomic restore: dropping original table (wp_wp_phpmyadmin_extension__errors_log)
+0006.452 () Atomic restore: renaming new table (rl_wp_phpmyadmin_extension__errors_log) to final table name (wp_wp_phpmyadmin_extension__errors_log)
+0006.469 () Processing table (InnoDB): wp_wpuf_subscribers - will restore as: rl_wpuf_subscribers
+0006.524 () Atomic restore: dropping original table (wp_wpuf_subscribers)
+0006.540 () Atomic restore: renaming new table (rl_wpuf_subscribers) to final table name (wp_wpuf_subscribers)
+0006.560 () Processing table (InnoDB): wp_wpuf_transaction - will restore as: rl_wpuf_transaction
+0006.640 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0006.665 () UpdraftVault: this site has not been connected - check your settings
+0009.973 () Unlocking database and leaving maintenance mode
+0009.973 () เลิกใช้โหมดซ่อมบำรุง&#8230;
+0009.974 () Atomic restore: dropping original table (wp_wpuf_transaction)
+0009.987 () Atomic restore: renaming new table (rl_wpuf_transaction) to final table name (wp_wpuf_transaction)
+0010.008 () Finished: lines processed: 66 in 9.85 seconds
+0010.010 () Cleaning up rubbish...
+0010.011 () Begin search and replace (updraftplus_restored_db)
+0010.011 () [Database-replace-site-url] Database: search and replace site URL
+0010.011 () This option was not selected.
+0010.028 () Entity: plugins
+0010.028 () restore_backup(backup_file=backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:43:"C:\MAMP\htdocs\wordpress/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0010.030 () Unpacking backup... (backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip, 66.8 MB)
+0010.034 () Unzipping backup_2025-03-04-1803_Daffodil_765554f2faa2-plugins.zip to C:/MAMP/htdocs/wordpress/wp-content/upgrade/cc978ddc/ using UpdraftPlus_ZipArchive, starting index 0
+0011.405 () Unzip progress: 1632 out of 10937 files (839 B, plugins/akismet/.htaccess)
+0014.120 () Unzip progress: 2633 out of 10937 files (45.7 MB, plugins/elementor/core/editor/loader/v1/editor-v1-loader.php)
+0017.929 () Unzip progress: 3634 out of 10937 files (55.1 MB, plugins/eventprime-event-calendar-management/includes/class-ep-ajax.php)
+0025.237 () Unzip progress: 4635 out of 10937 files (92.1 MB, plugins/everest-forms/includes/fields/class-evf-field-captcha.php)
+0029.361 () Unzip progress: 5636 out of 10937 files (97.7 MB, plugins/forminator/addons/pro/googlesheet/lib/external/vendor-prefixed/monolog/monolog/src/Monolog/Handler/SwiftMailerHandler.php)
+0033.727 () Unzip progress: 6637 out of 10937 files (114.3 MB, plugins/forminator/assets/js/front/front.payment.js)
+0043.695 () Unzip progress: 7638 out of 10937 files (130.8 MB, plugins/forminator/library/lib/recommended-plugins/assets/fonts/wpmudev-close-icon.woff)
+0048.569 () Unzip progress: 8639 out of 10937 files (147.8 MB, plugins/ultimate-member/assets/libs/raty/um-raty.min.css)
+0053.266 () Unzip progress: 9640 out of 10937 files (173 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/RequestMediator.php)
+0058.001 () Unzip progress: 10641 out of 10937 files (188.7 MB, plugins/wp-user-frontend/includes/Admin/Forms/Post/Templates/Post_Form_Template_WooCommerce.php)
+0059.805 () Unzip progress: 10937 out of 10937 files (191.8 MB, plugins/wp-user-frontend/wpuf.php)
+0059.829 () Moving old data: filesystem method / updraft_dir is potentially possible
+0059.830 () Moving old data: can potentially use wp_filesystem method / -old
+0059.830 () Moving old data out of the way...
+0065.205 () Top-level entities being moved: akismet, elementor, eventprime-event-calendar-management, everest-forms, flamingo, forminator, hello.php, image-optimization, index.php, the-post-grid, ultimate-member, updraftplus, wp-user-frontend
+0065.244 () PHP event: code E_WARNING: rename(C:\MAMP\htdocs\wordpress/wp-content/plugins/ultimate-member,C:\MAMP\htdocs\wordpress/wp-content/updraft/plugins-old/ultimate-member): Access is denied (code: 5) (line 4646, C:\MAMP\htdocs\wordpress\wp-content\plugins\updraftplus\restorer.php)
+0065.245 () [Updraftplus] There was an error when performing the move operation by renaming or copying C:\MAMP\htdocs\wordpress/wp-content/plugins/ultimate-member to C:\MAMP\htdocs\wordpress/wp-content/updraft/plugins-old/ultimate-member: will attempt a recursive copy instead.
+0066.940 () Moving unpacked backup into place...
+0069.987 () Top-level entities being moved: akismet, elementor, eventprime-event-calendar-management, everest-forms, flamingo, forminator, hello.php, image-optimization, index.php, the-post-grid, ultimate-member, updraftplus, wp-user-frontend
+0070.036 () Cleaning up rubbish...
+0070.043 () Entity: themes
+0070.043 () restore_backup(backup_file=backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip, type=themes, info=a:3:{s:4:"path";s:42:"C:\MAMP\htdocs\wordpress/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0070.045 () Unpacking backup... (backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip, 18.7 MB)
+0070.046 () Unzipping backup_2025-03-04-1803_Daffodil_765554f2faa2-themes.zip to C:/MAMP/htdocs/wordpress/wp-content/upgrade/93a03e15/ using UpdraftPlus_ZipArchive, starting index 0
+0071.840 () Unzip progress: 1002 out of 1621 files (13.6 MB, themes/astra/inc/customizer/custom-controls/assets/css/unminified/sortable-rtl.css)
+0073.681 () Unzip progress: 1621 out of 1621 files (34.9 MB, themes/twentytwentythree/theme.json)
+0073.697 () Moving old data: filesystem method / updraft_dir is potentially possible
+0073.699 () Moving old data: can potentially use wp_filesystem method / -old
+0073.699 () Moving old data out of the way...
+0074.833 () Top-level entities being moved: astra, hello-elementor, index.php, twentytwentyfive, twentytwentyfour, twentytwentythree
+0074.880 () Moving unpacked backup into place...
+0075.818 () Top-level entities being moved: astra, hello-elementor, index.php, twentytwentyfive, twentytwentyfour, twentytwentythree
+0075.835 () Cleaning up rubbish...
+0075.842 () Entity: uploads
+0075.842 () restore_backup(backup_file=backup_2025-03-04-1803_Daffodil_765554f2faa2-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:43:"C:\MAMP\htdocs\wordpress/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0075.843 () Unpacking backup... (backup_2025-03-04-1803_Daffodil_765554f2faa2-uploads.zip, 3.2 MB)
+0075.845 () Unzipping backup_2025-03-04-1803_Daffodil_765554f2faa2-uploads.zip to C:/MAMP/htdocs/wordpress/wp-content/upgrade/ba9b961b/ using UpdraftPlus_ZipArchive, starting index 0
+0075.959 () Unzip progress: 62 out of 62 files (3.5 MB, uploads/forminator/index.php)
+0075.963 () Moving old data: filesystem method / updraft_dir is potentially possible
+0075.964 () Moving old data: can potentially use wp_filesystem method / -old
+0075.964 () Moving old data out of the way...
+0075.995 () Moving unpacked backup into place...
+0076.030 () Cleaning up rubbish...
+0076.037 () Entity: others
+0076.037 () restore_backup(backup_file=backup_2025-03-04-1803_Daffodil_765554f2faa2-others.zip, type=others, info=a:2:{s:4:"path";s:35:"C:\MAMP\htdocs\wordpress/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0076.039 () Unpacking backup... (backup_2025-03-04-1803_Daffodil_765554f2faa2-others.zip, 2.9 MB)
+0076.040 () Unzipping backup_2025-03-04-1803_Daffodil_765554f2faa2-others.zip to C:/MAMP/htdocs/wordpress/wp-content/upgrade/0b8b7d70/ using UpdraftPlus_ZipArchive, starting index 0
+0076.553 () Unzip progress: 203 out of 203 files (13.3 MB, languages-old-old/th.po)
+0076.598 () Cleaning up rubbish...
+0076.653 () Elementor's clear cache method exists and will be executed
+0076.689 () Restore successful!
+0076.689 () Restore successful

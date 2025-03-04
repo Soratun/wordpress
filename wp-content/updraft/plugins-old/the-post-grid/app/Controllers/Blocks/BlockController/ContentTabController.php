@@ -12,7 +12,7 @@ class ContentTabController {
 	 *
 	 * @return mixed|void
 	 */
-	public static function get_controller( $attribute_args, $prefix = '' ) {
+	public static function get_controller( $attribute_args ) {
 		$prefix         = $attribute_args['prefix'];
 		$default_layout = $attribute_args['default_layout'];
 
@@ -161,7 +161,7 @@ class ContentTabController {
 				'default' => '',
 			],
 
-			// Todo: Query Advance Filter give below
+			// Query Advance Filter give below
 
 			'taxonomy_lists'                   => [
 				'type'    => 'object',

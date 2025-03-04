@@ -427,3 +427,10 @@
 0096.389 (0) Deleting zip manifest (backup_2025-03-04-1803_Daffodil_765554f2faa2-others.zip.list.tmp)
 0096.392 (0) No email will/can be sent - the user has not configured an email address.
 0096.394 (0) The backup succeeded and is now complete
+0000.000 (1) Opened log file at time: Tue, 04 Mar 2025 18:30:23 +0000 on http://localhost:8888/wordpress
+0000.002 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.1 PHP: 8.3.1 (apache2handler, Windows NT SINZARA 6.2 build 9200 (Windows 8 Professional Edition) AMD64) MySQL: 5.7.24 (max packet size=33554432) WPLANG: th Server: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.3.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 68M | 78M) multisite: N openssl: OpenSSL 3.0.12 24 Oct 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.005 (1) Free space on disk containing Updraft's temporary directory: 58699.3 MB
+0000.007 (1) Requesting backup semaphore lock (765554f2faa2)
+0000.011 (1) [Debug] Lock option (updraft_lock_765554f2faa2, wp_options) was created in the database
+0000.012 (1) [Info] Lock (updraft_lock_765554f2faa2, wp_options) acquired after initialising the database
+0000.014 (1) This backup task (765554f2faa2) is either complete or began over 2 days ago: ending (1741113023.0332, ) (existing jobdata keys: )
