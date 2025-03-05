@@ -2292,3 +2292,78 @@ Stack trace:
 [04-Mar-2025 18:32:03 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\wordpress\wp-includes\functions.php on line 5464
 [04-Mar-2025 18:32:10 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\wordpress\wp-includes\functions.php on line 5464
 [04-Mar-2025 18:32:10 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in C:\MAMP\htdocs\wordpress\wp-includes\functions.php on line 5464
+[05-Mar-2025 07:25:38 UTC] Automatic updates starting...
+[05-Mar-2025 07:25:40 UTC]   Automatic plugin updates starting...
+[05-Mar-2025 07:25:40 UTC]   Automatic plugin updates complete.
+[05-Mar-2025 07:25:41 UTC]   Automatic theme updates starting...
+[05-Mar-2025 07:25:41 UTC]   Automatic theme updates complete.
+[05-Mar-2025 07:25:41 UTC] Automatic updates complete.
+[05-Mar-2025 07:25:51 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: ไม่มีเหตุการณ์กำหนดเวลา, Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[05-Mar-2025 07:58:26 UTC] PHP Notice:  hash_file(): Read of 8192 bytes failed with errno=21 Is a directory in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/updraftplus/restorer.php on line 1351
+[05-Mar-2025 07:58:26 UTC] PHP Notice:  hash_file(): Read of 8192 bytes failed with errno=21 Is a directory in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/updraftplus/restorer.php on line 1351
+[05-Mar-2025 07:58:27 UTC] WordPress database error Table 'wp_actionscheduler_actions' already exists for query CREATE TABLE wp_actionscheduler_actions (
+				        action_id bigint(20) unsigned NOT NULL auto_increment,
+				        hook varchar(191) NOT NULL,
+				        status varchar(20) NOT NULL,
+				        scheduled_date_gmt datetime NULL default '0000-00-00 00:00:00',
+				        scheduled_date_local datetime NULL default '0000-00-00 00:00:00',
+				        priority tinyint unsigned NOT NULL default '10',
+				        args varchar(191),
+				        schedule longtext,
+				        group_id bigint(20) unsigned NOT NULL default '0',
+				        attempts int(11) NOT NULL default '0',
+				        last_attempt_gmt datetime NULL default '0000-00-00 00:00:00',
+				        last_attempt_local datetime NULL default '0000-00-00 00:00:00',
+				        claim_id bigint(20) unsigned NOT NULL default '0',
+				        extended_args varchar(8000) DEFAULT NULL,
+				        PRIMARY KEY  (action_id),
+				        KEY hook_status_scheduled_date_gmt (hook(163), status, scheduled_date_gmt),
+				        KEY status_scheduled_date_gmt (status, scheduled_date_gmt),
+				        KEY scheduled_date_gmt (scheduled_date_gmt),
+				        KEY args (args(191)),
+				        KEY group_id (group_id),
+				        KEY last_attempt_gmt (last_attempt_gmt),
+				        KEY `claim_id_status_scheduled_date_gmt` (`claim_id`, `status`, `scheduled_date_gmt`)
+				        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_HybridStore->init, ActionScheduler_DBStore->init, ActionScheduler_Abstract_Schema->register_tables, ActionScheduler_Abstract_Schema->update_table, dbDelta
+[05-Mar-2025 07:58:27 UTC] WordPress database error Table 'wp_actionscheduler_actions' already exists for query CREATE TABLE wp_actionscheduler_actions (
+				        action_id bigint(20) unsigned NOT NULL auto_increment,
+				        hook varchar(191) NOT NULL,
+				        status varchar(20) NOT NULL,
+				        scheduled_date_gmt datetime NULL default '0000-00-00 00:00:00',
+				        scheduled_date_local datetime NULL default '0000-00-00 00:00:00',
+				        priority tinyint unsigned NOT NULL default '10',
+				        args varchar(191),
+				        schedule longtext,
+				        group_id bigint(20) unsigned NOT NULL default '0',
+				        attempts int(11) NOT NULL default '0',
+				        last_attempt_gmt datetime NULL default '0000-00-00 00:00:00',
+				        last_attempt_local datetime NULL default '0000-00-00 00:00:00',
+				        claim_id bigint(20) unsigned NOT NULL default '0',
+				        extended_args varchar(8000) DEFAULT NULL,
+				        PRIMARY KEY  (action_id),
+				        KEY hook_status_scheduled_date_gmt (hook(163), status, scheduled_date_gmt),
+				        KEY status_scheduled_date_gmt (status, scheduled_date_gmt),
+				        KEY scheduled_date_gmt (scheduled_date_gmt),
+				        KEY args (args(191)),
+				        KEY group_id (group_id),
+				        KEY last_attempt_gmt (last_attempt_gmt),
+				        KEY `claim_id_status_scheduled_date_gmt` (`claim_id`, `status`, `scheduled_date_gmt`)
+				        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_HybridStore->init, ActionScheduler_DBStore->init, ActionScheduler_Abstract_Schema->register_tables, ActionScheduler_Abstract_Schema->update_table, dbDelta
+[05-Mar-2025 07:58:27 UTC] WordPress database error Duplicate entry '290' for key 'wp_actionscheduler_actions.PRIMARY' for query INSERT INTO `wp_actionscheduler_actions` (`action_id`, `hook`, `status`, `scheduled_date_gmt`, `scheduled_date_local`, `last_attempt_gmt`, `last_attempt_local`) VALUES ('290', '', '', '2025-03-06 00:00:00', '2025-03-06 00:00:00', '2025-03-06 00:00:00', '2025-03-06 00:00:00') made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_HybridStore->init, ActionScheduler_DBStore->init, ActionScheduler_Abstract_Schema->register_tables, ActionScheduler_Abstract_Schema->update_table, do_action('action_scheduler/created_table'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_HybridStore->set_autoincrement
+[05-Mar-2025 07:58:27 UTC] WordPress database error Duplicate entry '290' for key 'wp_actionscheduler_actions.PRIMARY' for query INSERT INTO `wp_actionscheduler_actions` (`action_id`, `hook`, `status`, `scheduled_date_gmt`, `scheduled_date_local`, `last_attempt_gmt`, `last_attempt_local`) VALUES ('290', '', '', '2025-03-06 00:00:00', '2025-03-06 00:00:00', '2025-03-06 00:00:00', '2025-03-06 00:00:00') made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_HybridStore->init, ActionScheduler_DBStore->init, ActionScheduler_Abstract_Schema->register_tables, ActionScheduler_Abstract_Schema->update_table, do_action('action_scheduler/created_table'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_HybridStore->set_autoincrement
+[05-Mar-2025 07:58:27 UTC] WordPress database error Table 'wp_actionscheduler_claims' already exists for query CREATE TABLE wp_actionscheduler_claims (
+				        claim_id bigint(20) unsigned NOT NULL auto_increment,
+				        date_created_gmt datetime NULL default '0000-00-00 00:00:00',
+				        PRIMARY KEY  (claim_id),
+				        KEY date_created_gmt (date_created_gmt)
+				        ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, ActionScheduler_HybridStore->init, ActionScheduler_DBStore->init, ActionScheduler_Abstract_Schema->register_tables, ActionScheduler_Abstract_Schema->update_table, dbDelta
+[05-Mar-2025 07:58:31 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_optimized_size_keys` successfully executed.
+[05-Mar-2025 07:58:31 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_optimized_size_keys` successfully executed.
+[05-Mar-2025 07:58:31 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_optimized_size_keys` successfully executed.
+[05-Mar-2025 07:58:31 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_mime_type` successfully executed.
+[05-Mar-2025 07:58:31 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_mime_type` successfully executed.
+[05-Mar-2025 07:58:31 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_mime_type` successfully executed.
+[05-Mar-2025 07:58:31 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
+[05-Mar-2025 07:58:31 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
+[05-Mar-2025 07:58:31 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
+[05-Mar-2025 07:58:35 UTC] PHP Warning:  translations_api(): มีความผิดพลาดที่ไม่คาดคิดเกิดขึ้น  สิ่งเหล่านี้อาจเกิดจากความผิดพลาดของ WordPress.org เองหรือการตั้งค่าเซิร์ฟเวอร์นี้  ถ้าคุณยังมีปัญหาอยู่  โปรดลองใช้ <a href="https://th.wordpress.org/support/forums/">ฟอรั่มสนับสนุน</a> (WordPress ไม่สามารถสร้างการเชื่อมต่อที่ปลอดภัยไปยัง WordPress.org กรุณาติดต่อผู้ดูแลเซิร์ฟเวอร์ของคุณ) in /Applications/MAMP/htdocs/wordpress/wp-includes/functions.php on line 6114
