@@ -2367,3 +2367,37 @@ Stack trace:
 [05-Mar-2025 07:58:31 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
 [05-Mar-2025 07:58:31 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
 [05-Mar-2025 07:58:35 UTC] PHP Warning:  translations_api(): มีความผิดพลาดที่ไม่คาดคิดเกิดขึ้น  สิ่งเหล่านี้อาจเกิดจากความผิดพลาดของ WordPress.org เองหรือการตั้งค่าเซิร์ฟเวอร์นี้  ถ้าคุณยังมีปัญหาอยู่  โปรดลองใช้ <a href="https://th.wordpress.org/support/forums/">ฟอรั่มสนับสนุน</a> (WordPress ไม่สามารถสร้างการเชื่อมต่อที่ปลอดภัยไปยัง WordPress.org กรุณาติดต่อผู้ดูแลเซิร์ฟเวอร์ของคุณ) in /Applications/MAMP/htdocs/wordpress/wp-includes/functions.php on line 6114
+[05-Mar-2025 08:25:04 UTC] PHP Notice:  hash_file(): Read of 8192 bytes failed with errno=21 Is a directory in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/updraftplus/restorer.php on line 1351
+[05-Mar-2025 08:25:04 UTC] PHP Notice:  hash_file(): Read of 8192 bytes failed with errno=21 Is a directory in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/updraftplus/restorer.php on line 1351
+[05-Mar-2025 08:26:06 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_optimized_size_keys` successfully executed.
+[05-Mar-2025 08:26:06 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_optimized_size_keys` successfully executed.
+[05-Mar-2025 08:26:06 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_mime_type` successfully executed.
+[05-Mar-2025 08:26:06 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_mime_type` successfully executed.
+[05-Mar-2025 08:26:06 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
+[05-Mar-2025 08:26:06 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
+[05-Mar-2025 08:26:06 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
+[05-Mar-2025 08:38:35 UTC] PHP Warning:  wp_version_check(): มีความผิดพลาดที่ไม่คาดคิดเกิดขึ้น  สิ่งเหล่านี้อาจเกิดจากความผิดพลาดของ WordPress.org เองหรือการตั้งค่าเซิร์ฟเวอร์นี้  ถ้าคุณยังมีปัญหาอยู่  โปรดลองใช้ <a href="https://th.wordpress.org/support/forums/">ฟอรั่มสนับสนุน</a> (WordPress ไม่สามารถสร้างการเชื่อมต่อที่ปลอดภัยไปยัง WordPress.org กรุณาติดต่อผู้ดูแลเซิร์ฟเวอร์ของคุณ) in /Applications/MAMP/htdocs/wordpress/wp-includes/functions.php on line 6114
+[06-Mar-2025 14:50:28 UTC] Automatic updates starting...
+[06-Mar-2025 14:50:29 UTC]   Automatic plugin updates starting...
+[06-Mar-2025 14:50:29 UTC]   Automatic plugin updates complete.
+[06-Mar-2025 14:50:29 UTC]   Automatic theme updates starting...
+[06-Mar-2025 14:50:29 UTC]   Automatic theme updates complete.
+[06-Mar-2025 14:50:29 UTC] Automatic updates complete.
+[06-Mar-2025 14:54:13 UTC] PHP Notice:  hash_file(): Read of 8192 bytes failed with errno=21 Is a directory in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/updraftplus/restorer.php on line 1351
+[06-Mar-2025 14:54:13 UTC] PHP Notice:  hash_file(): Read of 8192 bytes failed with errno=21 Is a directory in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/updraftplus/restorer.php on line 1351
+[06-Mar-2025 14:54:13 UTC] PHP Notice:  hash_file(): Read of 8192 bytes failed with errno=21 Is a directory in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/updraftplus/restorer.php on line 1351
+[06-Mar-2025 14:54:13 UTC] PHP Notice:  hash_file(): Read of 8192 bytes failed with errno=21 Is a directory in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/updraftplus/restorer.php on line 1351
+[06-Mar-2025 14:55:17 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_optimized_size_keys` successfully executed.
+[06-Mar-2025 14:55:17 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_optimized_size_keys` successfully executed.
+[06-Mar-2025 14:55:17 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_mime_type` successfully executed.
+[06-Mar-2025 14:55:17 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_mime_type` successfully executed.
+[06-Mar-2025 14:55:17 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_mime_type` successfully executed.
+[06-Mar-2025 14:55:17 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
+[06-Mar-2025 14:55:17 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
+[06-Mar-2025 14:55:17 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
+[07-Mar-2025 01:42:29 UTC] Automatic updates starting...
+[07-Mar-2025 01:42:30 UTC]   Automatic plugin updates starting...
+[07-Mar-2025 01:42:30 UTC]   Automatic plugin updates complete.
+[07-Mar-2025 01:42:31 UTC]   Automatic theme updates starting...
+[07-Mar-2025 01:42:31 UTC]   Automatic theme updates complete.
+[07-Mar-2025 01:42:31 UTC] Automatic updates complete.

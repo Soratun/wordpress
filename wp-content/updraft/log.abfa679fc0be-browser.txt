@@ -1,0 +1,142 @@
+0000.016 (R) [notice] Looking for db archive: file name: backup_2025-03-05-1716_Daffodil_3d7cfd21133c-db.gz
+0000.016 (R) [notice] Archive is expected to be size: 550.5 KB: OK
+0000.017 (R) [notice] Looking for plugins archive: file name: backup_2025-03-05-1716_Daffodil_3d7cfd21133c-plugins.zip
+0000.017 (R) [notice] Archive is expected to be size: 68429.9 KB: OK
+0000.017 (R) [notice] Looking for themes archive: file name: backup_2025-03-05-1716_Daffodil_3d7cfd21133c-themes.zip
+0000.017 (R) [notice] Archive is expected to be size: 19174.7 KB: OK
+0000.018 (R) [notice] Looking for uploads archive: file name: backup_2025-03-05-1716_Daffodil_3d7cfd21133c-uploads.zip
+0000.018 (R) [notice] Archive is expected to be size: 3318.2 KB: OK
+0000.018 (R) [notice] Looking for others archive: file name: backup_2025-03-05-1716_Daffodil_3d7cfd21133c-others.zip
+0000.018 (R) [notice] Archive is expected to be size: 3919 KB: OK
+0000.019 (R) [notice] Unpacking backup... (backup_2025-03-05-1716_Daffodil_3d7cfd21133c-db.gz, 0.5 Mb)
+0000.020 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.030 (R) [notice] เปิดใช้โหมดซ่อมบำรุง&#8230;
+0000.034 (R) [notice] Backup created by: 1.25.2
+0000.034 (R) [notice] Backup of: http://localhost:8888/wordpress
+0000.034 (R) [notice] Content URL: http://localhost:8888/wordpress/wp-content
+0000.034 (R) [notice] Uploads URL: http://localhost:8888/wordpress/wp-content/uploads
+0000.035 (R) [notice] Old table prefix: wp_
+0000.035 (R) [notice] Old ABSPATH: C:\xampp\htdocs\wordpress/
+0000.035 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.035 (R) [notice] Site information: multisite = 0
+0000.035 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.036 (R) [notice] New table prefix: zm_
+0000.036 (R) [notice] Processing table (InnoDB):  wp_options - will restore as: zm_options
+0000.118 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.123 (R) [notice] Atomic restore: renaming new table (zm_options) to final table name (wp_options)
+0000.130 (R) [notice] Search and replacing table: wp_options: rows: 477
+0000.235 (R) [notice] Processing table (InnoDB):  wp_users - will restore as: zm_users
+0000.241 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.242 (R) [notice] Atomic restore: renaming new table (zm_users) to final table name (wp_users)
+0000.244 (R) [notice] Search and replacing table: wp_users: rows: 5
+0000.245 (R) [notice] Processing table (InnoDB):  wp_usermeta - will restore as: zm_usermeta
+0000.250 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.251 (R) [notice] Atomic restore: renaming new table (zm_usermeta) to final table name (wp_usermeta)
+0000.254 (R) [notice] Search and replacing table: wp_usermeta: rows: 120
+0000.255 (R) [notice] Processing table (InnoDB):  wp_commentmeta - will restore as: zm_commentmeta
+0000.259 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.260 (R) [notice] Atomic restore: renaming new table (zm_commentmeta) to final table name (wp_commentmeta)
+0000.262 (R) [notice] Search and replacing table: wp_commentmeta: rows: 0
+0000.263 (R) [notice] Processing table (InnoDB):  wp_comments - will restore as: zm_comments
+0000.268 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0000.270 (R) [notice] Atomic restore: renaming new table (zm_comments) to final table name (wp_comments)
+0000.272 (R) [notice] Search and replacing table: wp_comments: rows: 1
+0000.272 (R) [notice] Processing table (InnoDB):  wp_links - will restore as: zm_links
+0000.276 (R) [notice] Atomic restore: dropping original table (wp_links)
+0000.277 (R) [notice] Atomic restore: renaming new table (zm_links) to final table name (wp_links)
+0000.280 (R) [notice] Search and replacing table: wp_links: rows: 0
+0000.280 (R) [notice] Processing table (InnoDB):  wp_postmeta - will restore as: zm_postmeta
+0000.372 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0000.375 (R) [notice] Atomic restore: renaming new table (zm_postmeta) to final table name (wp_postmeta)
+0000.378 (R) [notice] Search and replacing table: wp_postmeta: rows: 2471
+0000.489 (R) [notice] Processing table (InnoDB):  wp_posts - will restore as: zm_posts
+0000.525 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0000.528 (R) [notice] Atomic restore: renaming new table (zm_posts) to final table name (wp_posts)
+0000.531 (R) [notice] Search and replacing table: wp_posts: rows: 425
+0000.555 (R) [notice] Processing table (InnoDB):  wp_signups - will restore as: zm_signups
+0000.559 (R) [notice] Atomic restore: dropping original table (wp_signups)
+0000.561 (R) [notice] Atomic restore: renaming new table (zm_signups) to final table name (wp_signups)
+0000.563 (R) [notice] Search and replacing table: wp_signups: rows: 0
+0000.563 (R) [notice] Processing table (InnoDB):  wp_term_relationships - will restore as: zm_term_relationships
+0000.567 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0000.568 (R) [notice] Atomic restore: renaming new table (zm_term_relationships) to final table name (wp_term_relationships)
+0000.570 (R) [notice] Search and replacing table: wp_term_relationships: rows: 35
+0000.571 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy - will restore as: zm_term_taxonomy
+0000.575 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0000.576 (R) [notice] Atomic restore: renaming new table (zm_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.578 (R) [notice] Search and replacing table: wp_term_taxonomy: rows: 17
+0000.579 (R) [notice] Processing table (InnoDB):  wp_termmeta - will restore as: zm_termmeta
+0000.583 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0000.586 (R) [notice] Atomic restore: renaming new table (zm_termmeta) to final table name (wp_termmeta)
+0000.587 (R) [notice] Search and replacing table: wp_termmeta: rows: 71
+0000.589 (R) [notice] Processing table (InnoDB):  wp_terms - will restore as: zm_terms
+0000.592 (R) [notice] Database queries processed: 50 in 0.57 seconds
+0000.592 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0000.594 (R) [notice] Atomic restore: renaming new table (zm_terms) to final table name (wp_terms)
+0000.596 (R) [notice] Search and replacing table: wp_terms: rows: 17
+0000.596 (R) [notice] Processing table (InnoDB):  wp_e_events - will restore as: zm_e_events
+0000.600 (R) [notice] Atomic restore: dropping original table (wp_e_events)
+0000.601 (R) [notice] Atomic restore: renaming new table (zm_e_events) to final table name (wp_e_events)
+0000.603 (R) [notice] Search and replacing table: wp_e_events: rows: 8
+0000.603 (R) [notice] Processing table (InnoDB):  wp_em_price_options - will restore as: zm_em_price_options
+0000.607 (R) [notice] Atomic restore: dropping original table (wp_em_price_options)
+0000.610 (R) [notice] Atomic restore: renaming new table (zm_em_price_options) to final table name (wp_em_price_options)
+0000.613 (R) [notice] Search and replacing table: wp_em_price_options: rows: 0
+0000.614 (R) [notice] Processing table (InnoDB):  wp_eventprime_checkout_fields - will restore as: zm_eventprime_checkout_fields
+0000.617 (R) [notice] Atomic restore: dropping original table (wp_eventprime_checkout_fields)
+0000.618 (R) [notice] Atomic restore: renaming new table (zm_eventprime_checkout_fields) to final table name (wp_eventprime_checkout_fields)
+0000.620 (R) [notice] Search and replacing table: wp_eventprime_checkout_fields: rows: 0
+0000.620 (R) [notice] Processing table (InnoDB):  wp_eventprime_ticket_categories - will restore as: zm_eventprime_ticket_categories
+0000.623 (R) [notice] Atomic restore: dropping original table (wp_eventprime_ticket_categories)
+0000.624 (R) [notice] Atomic restore: renaming new table (zm_eventprime_ticket_categories) to final table name (wp_eventprime_ticket_categories)
+0000.626 (R) [notice] Search and replacing table: wp_eventprime_ticket_categories: rows: 0
+0000.627 (R) [notice] Processing table (InnoDB):  wp_um_metadata - will restore as: zm_um_metadata
+0000.635 (R) [notice] Atomic restore: dropping original table (wp_um_metadata)
+0000.636 (R) [notice] Atomic restore: renaming new table (zm_um_metadata) to final table name (wp_um_metadata)
+0000.638 (R) [notice] Search and replacing table: wp_um_metadata: rows: 0
+0000.638 (R) [notice] Processing table (InnoDB):  wp_wp_phpmyadmin_extension__errors_log - will restore as: zm_wp_phpmyadmin_extension__errors_log
+0000.641 (R) [notice] Atomic restore: dropping original table (wp_wp_phpmyadmin_extension__errors_log)
+0000.642 (R) [notice] Atomic restore: renaming new table (zm_wp_phpmyadmin_extension__errors_log) to final table name (wp_wp_phpmyadmin_extension__errors_log)
+0000.644 (R) [notice] Search and replacing table: wp_wp_phpmyadmin_extension__errors_log: rows: 0
+0000.644 (R) [notice] Processing table (InnoDB):  wp_wpuf_subscribers - will restore as: zm_wpuf_subscribers
+0000.648 (R) [notice] Atomic restore: dropping original table (wp_wpuf_subscribers)
+0000.649 (R) [notice] Atomic restore: renaming new table (zm_wpuf_subscribers) to final table name (wp_wpuf_subscribers)
+0000.651 (R) [notice] Search and replacing table: wp_wpuf_subscribers: rows: 0
+0000.651 (R) [notice] Processing table (InnoDB):  wp_wpuf_transaction - will restore as: zm_wpuf_transaction
+0003.158 (R) [notice] เลิกใช้โหมดซ่อมบำรุง&#8230;
+0003.158 (R) [notice] Atomic restore: dropping original table (wp_wpuf_transaction)
+0003.164 (R) [notice] Atomic restore: renaming new table (zm_wpuf_transaction) to final table name (wp_wpuf_transaction)
+0003.170 (R) [notice] Search and replacing table: wp_wpuf_transaction: rows: 0
+0003.171 (R) [notice] Finished: lines processed: 70 in 3.15 seconds
+0003.171 (R) [notice] Cleaning up rubbish...
+0003.172 (R) [notice] This option was not selected.
+0003.179 (R) [notice] Unpacking backup... (backup_2025-03-05-1716_Daffodil_3d7cfd21133c-plugins.zip, 66.8 MB)
+0004.491 (R) [notice] Unzip progress: 1632 out of 10937 files (839 B, plugins/akismet/.htaccess)
+0004.899 (R) [notice] Unzip progress: 2633 out of 10937 files (45.7 MB, plugins/elementor/core/editor/loader/v1/editor-v1-loader.php)
+0005.083 (R) [notice] Unzip progress: 3634 out of 10937 files (55.1 MB, plugins/eventprime-event-calendar-management/includes/class-ep-ajax.php)
+0005.399 (R) [notice] Unzip progress: 4635 out of 10937 files (92.1 MB, plugins/everest-forms/includes/fields/class-evf-field-captcha.php)
+0005.568 (R) [notice] Unzip progress: 5636 out of 10937 files (97.7 MB, plugins/forminator/addons/pro/googlesheet/lib/external/vendor-prefixed/monolog/monolog/src/Monolog/Handler/SwiftMailerHandler.php)
+0005.793 (R) [notice] Unzip progress: 6637 out of 10937 files (114.3 MB, plugins/forminator/assets/js/front/front.payment.js)
+0006.034 (R) [notice] Unzip progress: 7638 out of 10937 files (130.8 MB, plugins/forminator/library/lib/recommended-plugins/assets/fonts/wpmudev-close-icon.woff)
+0006.268 (R) [notice] Unzip progress: 8639 out of 10937 files (147.8 MB, plugins/ultimate-member/assets/libs/raty/um-raty.min.css)
+0006.567 (R) [notice] Unzip progress: 9640 out of 10937 files (173 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/RequestMediator.php)
+0006.781 (R) [notice] Unzip progress: 10641 out of 10937 files (188.7 MB, plugins/wp-user-frontend/includes/Admin/Forms/Post/Templates/Post_Form_Template_WooCommerce.php)
+0006.843 (R) [notice] Unzip progress: 10937 out of 10937 files (191.8 MB, plugins/wp-user-frontend/wpuf.php)
+0006.848 (R) [notice] Moving old data out of the way...
+0007.943 (R) [notice] Moving unpacked backup into place...
+0009.121 (R) [notice] Cleaning up rubbish...
+0009.123 (R) [notice] Unpacking backup... (backup_2025-03-05-1716_Daffodil_3d7cfd21133c-themes.zip, 18.7 MB)
+0009.498 (R) [notice] Unzip progress: 1002 out of 1621 files (13.6 MB, themes/astra/inc/customizer/custom-controls/assets/css/unminified/sortable-rtl.css)
+0009.697 (R) [notice] Unzip progress: 1621 out of 1621 files (34.9 MB, themes/twentytwentythree/theme.json)
+0009.698 (R) [notice] Moving old data out of the way...
+0009.879 (R) [notice] Moving unpacked backup into place...
+0010.050 (R) [notice] Cleaning up rubbish...
+0010.052 (R) [notice] Unpacking backup... (backup_2025-03-05-1716_Daffodil_3d7cfd21133c-uploads.zip, 3.2 MB)
+0010.078 (R) [notice] Unzip progress: 68 out of 68 files (3.5 MB, uploads/forminator/index.php)
+0010.079 (R) [notice] Moving old data out of the way...
+0010.087 (R) [notice] Moving unpacked backup into place...
+0010.093 (R) [notice] Cleaning up rubbish...
+0010.095 (R) [notice] Unpacking backup... (backup_2025-03-05-1716_Daffodil_3d7cfd21133c-others.zip, 3.8 MB)
+0010.271 (R) [notice] Unzip progress: 273 out of 273 files (17.7 MB, languages-old-old-old/th.po)
+0010.290 (R) [notice] Cleaning up rubbish...
+0010.327 (R) [notice] Restore successful!
