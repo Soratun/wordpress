@@ -1,6 +1,0 @@
-0000.016 (R) [notice] Looking for db archive: file name: backup_2025-03-05-1716_Daffodil_3d7cfd21133c-db.gz
-0000.016 (R) [notice] Archive is expected to be size: 550.5 KB: OK
-0000.017 (R) [notice] Looking for plugins archive: file name: backup_2025-03-05-1716_Daffodil_3d7cfd21133c-plugins.zip
-0000.017 (R) [notice] Archive is expected to be size: 68429.9 KB: OK
-0000.018 (R) [warning] Error: Existing unremoved folders from a previous restore exist (please use the "Delete old folders" button to delete them before trying again): /Applications/MAMP/htdocs/wordpress/wp-content/updraft/plugins-old
-0000.018 (R) [notice] Restore failed...

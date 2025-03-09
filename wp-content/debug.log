@@ -3870,3 +3870,9 @@ Stack trace:
 [09-Mar-2025 18:01:29 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in D:\MAMP\htdocs\wordpress\wp-includes\functions.php on line 5464
 [09-Mar-2025 18:01:34 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in D:\MAMP\htdocs\wordpress\wp-includes\functions.php on line 5464
 [09-Mar-2025 18:01:34 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in D:\MAMP\htdocs\wordpress\wp-includes\functions.php on line 5464
+[09-Mar-2025 18:12:48 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in D:\MAMP\htdocs\wordpress\wp-includes\functions.php on line 5464
+[09-Mar-2025 18:12:48 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in D:\MAMP\htdocs\wordpress\wp-includes\functions.php on line 5464
+[09-Mar-2025 18:12:51 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in D:\MAMP\htdocs\wordpress\wp-includes\functions.php on line 5464
+[09-Mar-2025 18:12:51 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in D:\MAMP\htdocs\wordpress\wp-includes\functions.php on line 5464
+[09-Mar-2025 18:18:35 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in D:\MAMP\htdocs\wordpress\wp-includes\functions.php on line 5464
+[09-Mar-2025 18:18:35 UTC] PHP Notice:  ob_end_flush(): Failed to send buffer of zlib output compression (1) in D:\MAMP\htdocs\wordpress\wp-includes\functions.php on line 5464
