@@ -5,3 +5,10 @@
 0000.003 (1) [Debug] Lock option (updraft_lock_3d7cfd21133c, wp_options) was created in the database
 0000.003 (1) [Info] Lock (updraft_lock_3d7cfd21133c, wp_options) acquired after initialising the database
 0000.003 (1) This backup task (3d7cfd21133c) is either complete or began over 2 days ago: ending (1741272854.5094, ) (existing jobdata keys: )
+0000.000 (1) Opened log file at time: Sun, 09 Mar 2025 13:57:38 +0000 on http://localhost:8888/wordpress
+0000.006 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.2 WP: 6.7.1 PHP: 8.3.1 (apache2handler, Windows NT LAPTOP-VGEU39U0 6.2 build 9200 (Windows 8 Home Premium Edition) AMD64) MySQL: 5.7.24 (max packet size=33554432) WPLANG: th Server: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.3.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 68.1M | 70M) multisite: N openssl: OpenSSL 3.0.12 24 Oct 2023 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.008 (1) Free space on disk containing Updraft's temporary directory: 188074 MB
+0000.009 (1) Requesting backup semaphore lock (3d7cfd21133c)
+0000.013 (1) [Debug] Lock option (updraft_lock_3d7cfd21133c, wp_options) was created in the database
+0000.014 (1) [Info] Lock (updraft_lock_3d7cfd21133c, wp_options) acquired after initialising the database
+0000.023 (1) This backup task (3d7cfd21133c) is either complete or began over 2 days ago: ending (1741528658.7551, ) (existing jobdata keys: )
